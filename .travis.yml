@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-- "8"
+- '8'
 services:
 - postgresql
 before_script:
 - psql -c 'CREATE DATABASE bees_test;' -U postgres
-script: 
-  - npm run lint
-  - npm test
+script:
+- npm run lint
+- npm test
 notifications:
 - email: false
 deploy:
   provider: heroku
-  app: bees-and-agriculture
+  app: bees-scrollytelling
   skip_cleanup: true
   api_key:
-    secure: EZlaRCcs0h13dmcOFrZMmAldsEs3gsgYyXPwKRg+GQKIrNEp+MxpAegS1GSWJXlV6s5qO2qHQbp9mZNjNTzTZr1U+rMXHi9TgK1pSxjKfVkmQOAYT90M7tfP2rMQViBCeeE3fAYwNWOqhSAWt0HO+ykoH0SI/Jw4OwimhmpBnhor+pSRf/9EXlot/gqiFw3T+4fmH41WI3Uy5RGH/vU+8bZYyxQbRnxna4aIDs6n8RmmbAKTzOkTDsYbixxFOaBuqJusBKX7rQPPxHsSNYB1K5b9Ni4PigZLXaB8hlpT5c/1jzFYFhDxA/f4lanGKdPWYvX2jGv81qMHXnArUtVxopaEE+d5K7+KFp2rUe/lHzosF55XOouURB8/M0czAwYeTvRWBHvgXVIlMGlvfLxWpmi1mChsqlTY6RWuEXasjguKKuUiGWUq23gcj86RY7S6K+kWm80p7ovKXrHpPRlh8qPYWn5zNnHeZ/2zwqKOpCixemNGz8qhg8gSiUUdgN+3BqfWOdYvBM1almc+JfLgnPVi82k5V3ggxIdPfYpAcRZrJnWW+lGMtqTF5ziLfqJ7Ie28d5BYyDul0YwwH8ec+drkP8KxERq38GAw+I5x3Pl0c31qCBdmZF1dOlhCv7vtzuv7/rdD08fVMyhvg5bKV9zyXdmC+oGqU00c0aE3aiI=
+    secure: WKReNFYctrRM2amyBUxj6G7R5HQvtyWqOPkiBIDKvslHa81+EBqYwyX3XBt71ifC+B8rsITRkPQzH+H0HQ4U58ewfpqboeA+Ro/vHWRLfXPXHD9XCFs3zpsJImL3UTjcFnM3Gsp7n4gCdntvnGlds1bcn2WdmCGYQdXscaJ3Uk1cxYc5k5/rBuGfZmvongXNNG3UM9MnXXG451Mo+Uum3M6+wpb6j/EQmpr503YiF5qIS7Td93ofbytE73DMosPAcMyaIEoHL9ER5mihNBBi716me6Ofo+EkFi7PV0BqkpXOKMkQaPSuhR+gEt2cyKzxoP4zcF2xT5qKA/8lTl29GvgrwuNbnsbGw+NMrxVH0CKPtUQDkv5qcRSL5pbrSluhkrW+22xduH0ABh8WSln4T8mbsVOC2Jw/lDOJ4ZVTskFH25L2veqbl8QYhtM8ybHL9YZtW35vQMhSOuAyeOUMHN6rFDl/ZxpnYT+NQOJYRC3qhB9jSZ9hLe0PyYpMp5EL6jpo70YR5P17QHiPMh1PNSzsoWgkFHSGs0wyPGUHkJycIh2S065UStz6MU8HGEAfNphMrK7XQ1hTBo7uvtXeBCxr5JVLVmm4YWCcdbal9NkbJPLPIZVaWEJVTDx/EAXhstK4U32lnogB7bNqPHKxLfS9WvmvA6xwFirQhT766Oc=
