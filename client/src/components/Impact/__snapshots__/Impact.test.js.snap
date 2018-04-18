@@ -1,0 +1,3683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Impact matches the Snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Impact
+    currentUserId={2}
+    questionsEnabled={true}
+    startScroll={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          className="diet-form"
+          onSubmit={[Function]}
+>
+          <div
+                    className="question-cont"
+          >
+                    <h2
+                              id="food-h2"
+                    >
+                              Let's talk about food...
+                    </h2>
+                    <img
+                              alt="fruit arrangement"
+                              className="fruit-arrangement"
+                              src="raspberryStarfruit.png"
+                    />
+                    <Parallax
+                              disabled={false}
+                              offsetXMax={0}
+                              offsetXMin={0}
+                              offsetYMax={900}
+                              offsetYMin={0}
+                              slowerScrollRate={true}
+                              tag="div"
+                    >
+                              <img
+                                        alt="orange"
+                                        className="raining-fruit rain-1"
+                                        onLoad={[Function]}
+                                        src="orange.png"
+                              />
+                              <img
+                                        alt="apple"
+                                        className="raining-fruit rain-2"
+                                        onLoad={[Function]}
+                                        src="apple.png"
+                              />
+                              <img
+                                        alt="acerola"
+                                        className="raining-fruit rain-3"
+                                        onLoad={[Function]}
+                                        src="acerola.png"
+                              />
+                              <img
+                                        alt="banana"
+                                        className="raining-fruit rain-4"
+                                        onLoad={[Function]}
+                                        src="banana.png"
+                              />
+                              <img
+                                        alt="blackberry"
+                                        className="raining-fruit rain-5"
+                                        onLoad={[Function]}
+                                        src="blackberry.png"
+                              />
+                              <img
+                                        alt="cherry"
+                                        className="raining-fruit rain-6"
+                                        onLoad={[Function]}
+                                        src="cherry.png"
+                              />
+                              <img
+                                        alt="cucumber"
+                                        className="raining-fruit rain-7"
+                                        onLoad={[Function]}
+                                        src="cucumber.png"
+                              />
+                              <img
+                                        alt="peach"
+                                        className="raining-fruit rain-8"
+                                        onLoad={[Function]}
+                                        src="Peach.png"
+                              />
+                              <img
+                                        alt="raspberry"
+                                        className="raining-fruit rain-9"
+                                        onLoad={[Function]}
+                                        src="raspberry.png"
+                              />
+                    </Parallax>
+          </div>
+          <label
+                    className="question-descr"
+                    htmlFor="diet"
+          >
+                    What percentage of your diet do you think is provided by bees?
+          </label>
+          <PieChart
+                    updateImpactPercent={[Function]}
+          />
+          <button
+                    type="submit"
+          >
+                    Guess
+          </button>
+</form>,
+        <article
+          className="diet-article"
+>
+          <div
+                    className="diet-article-volume"
+          >
+                    <h1
+                              id="diet-header"
+                    >
+                              In your daily diet,
+                    </h1>
+                    <h1>
+                              30% of food you eat is pollinated by bees
+                    </h1>
+                    <p>
+                              The other 70% consists of wheat, rice and corn, all which are wind pollinated
+                    </p>
+                    <div
+                              className="wind-foods-cont"
+                    >
+                              <Parallax
+                                        disabled={false}
+                                        offsetXMax={0}
+                                        offsetXMin={0}
+                                        offsetYMax={50}
+                                        offsetYMin={-100}
+                                        slowerScrollRate={false}
+                                        tag="div"
+                              >
+                                        <div
+                                                  className="wheat-cont"
+                                        >
+                                                  <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat1"
+                                                            src="wheat-cropped.png"
+                                                  />
+                                                  <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat2"
+                                                            src="wheat-cropped.png"
+                                                  />
+                                                  <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat3"
+                                                            src="wheat-cropped.png"
+                                                  />
+                                                  <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat4"
+                                                            src="wheat-cropped.png"
+                                                  />
+                                        </div>
+                              </Parallax>
+                    </div>
+          </div>
+          <h1>
+                    60% of the diversity of food you eat is pollinated by bees
+          </h1>
+          <p>
+                    This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados
+          </p>
+          <div
+                    className="foods-cont"
+          >
+                    <img
+                              alt="all the fruits"
+                              className="word-cloud"
+                              src="wordcloud.png"
+                    />
+          </div>
+</article>,
+        <form
+          className="economic-questions"
+          onSubmit={[Function]}
+>
+          <h2>
+                    What about the Economy?
+          </h2>
+          <label
+                    className="question-descr"
+                    htmlFor="economic"
+          >
+                    How much does bee pollination contribute to the economy, anually?
+          </label>
+          <div>
+                    <select
+                              name="monetary"
+                              onChange={[Function]}
+                    >
+                              <option
+                                        value="1"
+                              >
+                                        1
+                              </option>
+                              <option
+                                        value="100"
+                              >
+                                        100
+                              </option>
+                              <option
+                                        value="200"
+                              >
+                                        200
+                              </option>
+                              <option
+                                        value="300"
+                              >
+                                        300
+                              </option>
+                              <option
+                                        value="400"
+                              >
+                                        400
+                              </option>
+                              <option
+                                        value="500"
+                              >
+                                        500
+                              </option>
+                              <option
+                                        value="600"
+                              >
+                                        600
+                              </option>
+                              <option
+                                        value="700"
+                              >
+                                        700
+                              </option>
+                              <option
+                                        value="800"
+                              >
+                                        800
+                              </option>
+                              <option
+                                        value="900"
+                              >
+                                        900
+                              </option>
+                    </select>
+                    <select
+                              name="unit"
+                              onChange={[Function]}
+                    >
+                              <option
+                                        value="million"
+                              >
+                                        million
+                              </option>
+                              <option
+                                        value="billion"
+                              >
+                                        billion
+                              </option>
+                    </select>
+          </div>
+          <button
+                    type="submit"
+          >
+                    Guess
+          </button>
+          <Parallax
+                    className="coins-parallax"
+                    disabled={false}
+                    offsetXMax={0}
+                    offsetXMin={0}
+                    offsetYMax={50}
+                    offsetYMin={-50}
+                    slowerScrollRate={false}
+                    tag="div"
+          >
+                    <img
+                              alt="falling coins"
+                              id="coins"
+                              src="falling-coins.png"
+                    />
+          </Parallax>
+</form>,
+        <article
+          className="economic-article"
+>
+          <h1>
+                    The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. 
+          </h1>
+          <div
+                    className="econ-graph-wrap"
+          >
+                    <div
+                              className="us-econ-growth"
+                    >
+                              <p>
+                                        US: 20 Billion
+                              </p>
+                    </div>
+                    <div
+                              className="world-econ-growth"
+                    >
+                              <p>
+                                        World: 217 Billion
+                              </p>
+                    </div>
+          </div>
+</article>,
+      ],
+      "className": "Impact",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="question-cont"
+>
+              <h2
+                            id="food-h2"
+              >
+                            Let's talk about food...
+              </h2>
+              <img
+                            alt="fruit arrangement"
+                            className="fruit-arrangement"
+                            src="raspberryStarfruit.png"
+              />
+              <Parallax
+                            disabled={false}
+                            offsetXMax={0}
+                            offsetXMin={0}
+                            offsetYMax={900}
+                            offsetYMin={0}
+                            slowerScrollRate={true}
+                            tag="div"
+              >
+                            <img
+                                          alt="orange"
+                                          className="raining-fruit rain-1"
+                                          onLoad={[Function]}
+                                          src="orange.png"
+                            />
+                            <img
+                                          alt="apple"
+                                          className="raining-fruit rain-2"
+                                          onLoad={[Function]}
+                                          src="apple.png"
+                            />
+                            <img
+                                          alt="acerola"
+                                          className="raining-fruit rain-3"
+                                          onLoad={[Function]}
+                                          src="acerola.png"
+                            />
+                            <img
+                                          alt="banana"
+                                          className="raining-fruit rain-4"
+                                          onLoad={[Function]}
+                                          src="banana.png"
+                            />
+                            <img
+                                          alt="blackberry"
+                                          className="raining-fruit rain-5"
+                                          onLoad={[Function]}
+                                          src="blackberry.png"
+                            />
+                            <img
+                                          alt="cherry"
+                                          className="raining-fruit rain-6"
+                                          onLoad={[Function]}
+                                          src="cherry.png"
+                            />
+                            <img
+                                          alt="cucumber"
+                                          className="raining-fruit rain-7"
+                                          onLoad={[Function]}
+                                          src="cucumber.png"
+                            />
+                            <img
+                                          alt="peach"
+                                          className="raining-fruit rain-8"
+                                          onLoad={[Function]}
+                                          src="Peach.png"
+                            />
+                            <img
+                                          alt="raspberry"
+                                          className="raining-fruit rain-9"
+                                          onLoad={[Function]}
+                                          src="raspberry.png"
+                            />
+              </Parallax>
+</div>,
+            <label
+              className="question-descr"
+              htmlFor="diet"
+>
+              What percentage of your diet do you think is provided by bees?
+</label>,
+            <PieChart
+              updateImpactPercent={[Function]}
+/>,
+            <button
+              type="submit"
+>
+              Guess
+</button>,
+          ],
+          "className": "diet-form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  id="food-h2"
+>
+                  Let's talk about food...
+</h2>,
+                <img
+                  alt="fruit arrangement"
+                  className="fruit-arrangement"
+                  src="raspberryStarfruit.png"
+/>,
+                <Parallax
+                  disabled={false}
+                  offsetXMax={0}
+                  offsetXMin={0}
+                  offsetYMax={900}
+                  offsetYMin={0}
+                  slowerScrollRate={true}
+                  tag="div"
+>
+                  <img
+                                    alt="orange"
+                                    className="raining-fruit rain-1"
+                                    onLoad={[Function]}
+                                    src="orange.png"
+                  />
+                  <img
+                                    alt="apple"
+                                    className="raining-fruit rain-2"
+                                    onLoad={[Function]}
+                                    src="apple.png"
+                  />
+                  <img
+                                    alt="acerola"
+                                    className="raining-fruit rain-3"
+                                    onLoad={[Function]}
+                                    src="acerola.png"
+                  />
+                  <img
+                                    alt="banana"
+                                    className="raining-fruit rain-4"
+                                    onLoad={[Function]}
+                                    src="banana.png"
+                  />
+                  <img
+                                    alt="blackberry"
+                                    className="raining-fruit rain-5"
+                                    onLoad={[Function]}
+                                    src="blackberry.png"
+                  />
+                  <img
+                                    alt="cherry"
+                                    className="raining-fruit rain-6"
+                                    onLoad={[Function]}
+                                    src="cherry.png"
+                  />
+                  <img
+                                    alt="cucumber"
+                                    className="raining-fruit rain-7"
+                                    onLoad={[Function]}
+                                    src="cucumber.png"
+                  />
+                  <img
+                                    alt="peach"
+                                    className="raining-fruit rain-8"
+                                    onLoad={[Function]}
+                                    src="Peach.png"
+                  />
+                  <img
+                                    alt="raspberry"
+                                    className="raining-fruit rain-9"
+                                    onLoad={[Function]}
+                                    src="raspberry.png"
+                  />
+</Parallax>,
+              ],
+              "className": "question-cont",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Let's talk about food...",
+                  "id": "food-h2",
+                },
+                "ref": null,
+                "rendered": "Let's talk about food...",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "fruit arrangement",
+                  "className": "fruit-arrangement",
+                  "src": "raspberryStarfruit.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="orange"
+                      className="raining-fruit rain-1"
+                      onLoad={[Function]}
+                      src="orange.png"
+/>,
+                    <img
+                      alt="apple"
+                      className="raining-fruit rain-2"
+                      onLoad={[Function]}
+                      src="apple.png"
+/>,
+                    <img
+                      alt="acerola"
+                      className="raining-fruit rain-3"
+                      onLoad={[Function]}
+                      src="acerola.png"
+/>,
+                    <img
+                      alt="banana"
+                      className="raining-fruit rain-4"
+                      onLoad={[Function]}
+                      src="banana.png"
+/>,
+                    <img
+                      alt="blackberry"
+                      className="raining-fruit rain-5"
+                      onLoad={[Function]}
+                      src="blackberry.png"
+/>,
+                    <img
+                      alt="cherry"
+                      className="raining-fruit rain-6"
+                      onLoad={[Function]}
+                      src="cherry.png"
+/>,
+                    <img
+                      alt="cucumber"
+                      className="raining-fruit rain-7"
+                      onLoad={[Function]}
+                      src="cucumber.png"
+/>,
+                    <img
+                      alt="peach"
+                      className="raining-fruit rain-8"
+                      onLoad={[Function]}
+                      src="Peach.png"
+/>,
+                    <img
+                      alt="raspberry"
+                      className="raining-fruit rain-9"
+                      onLoad={[Function]}
+                      src="raspberry.png"
+/>,
+                  ],
+                  "disabled": false,
+                  "offsetXMax": 0,
+                  "offsetXMin": 0,
+                  "offsetYMax": 900,
+                  "offsetYMin": 0,
+                  "slowerScrollRate": true,
+                  "tag": "div",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "orange",
+                      "className": "raining-fruit rain-1",
+                      "onLoad": [Function],
+                      "src": "orange.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "apple",
+                      "className": "raining-fruit rain-2",
+                      "onLoad": [Function],
+                      "src": "apple.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "acerola",
+                      "className": "raining-fruit rain-3",
+                      "onLoad": [Function],
+                      "src": "acerola.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "banana",
+                      "className": "raining-fruit rain-4",
+                      "onLoad": [Function],
+                      "src": "banana.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "blackberry",
+                      "className": "raining-fruit rain-5",
+                      "onLoad": [Function],
+                      "src": "blackberry.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "cherry",
+                      "className": "raining-fruit rain-6",
+                      "onLoad": [Function],
+                      "src": "cherry.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "cucumber",
+                      "className": "raining-fruit rain-7",
+                      "onLoad": [Function],
+                      "src": "cucumber.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "peach",
+                      "className": "raining-fruit rain-8",
+                      "onLoad": [Function],
+                      "src": "Peach.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "raspberry",
+                      "className": "raining-fruit rain-9",
+                      "onLoad": [Function],
+                      "src": "raspberry.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What percentage of your diet do you think is provided by bees?",
+              "className": "question-descr",
+              "htmlFor": "diet",
+            },
+            "ref": null,
+            "rendered": "What percentage of your diet do you think is provided by bees?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "updateImpactPercent": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Guess",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Guess",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="diet-article-volume"
+>
+              <h1
+                            id="diet-header"
+              >
+                            In your daily diet,
+              </h1>
+              <h1>
+                            30% of food you eat is pollinated by bees
+              </h1>
+              <p>
+                            The other 70% consists of wheat, rice and corn, all which are wind pollinated
+              </p>
+              <div
+                            className="wind-foods-cont"
+              >
+                            <Parallax
+                                          disabled={false}
+                                          offsetXMax={0}
+                                          offsetXMin={0}
+                                          offsetYMax={50}
+                                          offsetYMin={-100}
+                                          slowerScrollRate={false}
+                                          tag="div"
+                            >
+                                          <div
+                                                        className="wheat-cont"
+                                          >
+                                                        <img
+                                                                      alt="wheat grass"
+                                                                      className="wheat"
+                                                                      id="wheat1"
+                                                                      src="wheat-cropped.png"
+                                                        />
+                                                        <img
+                                                                      alt="wheat grass"
+                                                                      className="wheat"
+                                                                      id="wheat2"
+                                                                      src="wheat-cropped.png"
+                                                        />
+                                                        <img
+                                                                      alt="wheat grass"
+                                                                      className="wheat"
+                                                                      id="wheat3"
+                                                                      src="wheat-cropped.png"
+                                                        />
+                                                        <img
+                                                                      alt="wheat grass"
+                                                                      className="wheat"
+                                                                      id="wheat4"
+                                                                      src="wheat-cropped.png"
+                                                        />
+                                          </div>
+                            </Parallax>
+              </div>
+</div>,
+            <h1>
+              60% of the diversity of food you eat is pollinated by bees
+</h1>,
+            <p>
+              This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados
+</p>,
+            <div
+              className="foods-cont"
+>
+              <img
+                            alt="all the fruits"
+                            className="word-cloud"
+                            src="wordcloud.png"
+              />
+</div>,
+          ],
+          "className": "diet-article",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  id="diet-header"
+>
+                  In your daily diet,
+</h1>,
+                <h1>
+                  30% of food you eat is pollinated by bees
+</h1>,
+                <p>
+                  The other 70% consists of wheat, rice and corn, all which are wind pollinated
+</p>,
+                <div
+                  className="wind-foods-cont"
+>
+                  <Parallax
+                                    disabled={false}
+                                    offsetXMax={0}
+                                    offsetXMin={0}
+                                    offsetYMax={50}
+                                    offsetYMin={-100}
+                                    slowerScrollRate={false}
+                                    tag="div"
+                  >
+                                    <div
+                                                      className="wheat-cont"
+                                    >
+                                                      <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat1"
+                                                                        src="wheat-cropped.png"
+                                                      />
+                                                      <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat2"
+                                                                        src="wheat-cropped.png"
+                                                      />
+                                                      <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat3"
+                                                                        src="wheat-cropped.png"
+                                                      />
+                                                      <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat4"
+                                                                        src="wheat-cropped.png"
+                                                      />
+                                    </div>
+                  </Parallax>
+</div>,
+              ],
+              "className": "diet-article-volume",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "In your daily diet,",
+                  "id": "diet-header",
+                },
+                "ref": null,
+                "rendered": "In your daily diet,",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "30% of food you eat is pollinated by bees",
+                },
+                "ref": null,
+                "rendered": "30% of food you eat is pollinated by bees",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "The other 70% consists of wheat, rice and corn, all which are wind pollinated",
+                },
+                "ref": null,
+                "rendered": "The other 70% consists of wheat, rice and corn, all which are wind pollinated",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Parallax
+                    disabled={false}
+                    offsetXMax={0}
+                    offsetXMin={0}
+                    offsetYMax={50}
+                    offsetYMin={-100}
+                    slowerScrollRate={false}
+                    tag="div"
+>
+                    <div
+                                        className="wheat-cont"
+                    >
+                                        <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat1"
+                                                            src="wheat-cropped.png"
+                                        />
+                                        <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat2"
+                                                            src="wheat-cropped.png"
+                                        />
+                                        <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat3"
+                                                            src="wheat-cropped.png"
+                                        />
+                                        <img
+                                                            alt="wheat grass"
+                                                            className="wheat"
+                                                            id="wheat4"
+                                                            src="wheat-cropped.png"
+                                        />
+                    </div>
+</Parallax>,
+                  "className": "wind-foods-cont",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <div
+                      className="wheat-cont"
+>
+                      <img
+                                            alt="wheat grass"
+                                            className="wheat"
+                                            id="wheat1"
+                                            src="wheat-cropped.png"
+                      />
+                      <img
+                                            alt="wheat grass"
+                                            className="wheat"
+                                            id="wheat2"
+                                            src="wheat-cropped.png"
+                      />
+                      <img
+                                            alt="wheat grass"
+                                            className="wheat"
+                                            id="wheat3"
+                                            src="wheat-cropped.png"
+                      />
+                      <img
+                                            alt="wheat grass"
+                                            className="wheat"
+                                            id="wheat4"
+                                            src="wheat-cropped.png"
+                      />
+</div>,
+                    "disabled": false,
+                    "offsetXMax": 0,
+                    "offsetXMin": 0,
+                    "offsetYMax": 50,
+                    "offsetYMin": -100,
+                    "slowerScrollRate": false,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="wheat grass"
+                          className="wheat"
+                          id="wheat1"
+                          src="wheat-cropped.png"
+/>,
+                        <img
+                          alt="wheat grass"
+                          className="wheat"
+                          id="wheat2"
+                          src="wheat-cropped.png"
+/>,
+                        <img
+                          alt="wheat grass"
+                          className="wheat"
+                          id="wheat3"
+                          src="wheat-cropped.png"
+/>,
+                        <img
+                          alt="wheat grass"
+                          className="wheat"
+                          id="wheat4"
+                          src="wheat-cropped.png"
+/>,
+                      ],
+                      "className": "wheat-cont",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "wheat grass",
+                          "className": "wheat",
+                          "id": "wheat1",
+                          "src": "wheat-cropped.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "wheat grass",
+                          "className": "wheat",
+                          "id": "wheat2",
+                          "src": "wheat-cropped.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "wheat grass",
+                          "className": "wheat",
+                          "id": "wheat3",
+                          "src": "wheat-cropped.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "wheat grass",
+                          "className": "wheat",
+                          "id": "wheat4",
+                          "src": "wheat-cropped.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "60% of the diversity of food you eat is pollinated by bees",
+            },
+            "ref": null,
+            "rendered": "60% of the diversity of food you eat is pollinated by bees",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados",
+            },
+            "ref": null,
+            "rendered": "This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="all the fruits"
+                className="word-cloud"
+                src="wordcloud.png"
+/>,
+              "className": "foods-cont",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "all the fruits",
+                "className": "word-cloud",
+                "src": "wordcloud.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              What about the Economy?
+</h2>,
+            <label
+              className="question-descr"
+              htmlFor="economic"
+>
+              How much does bee pollination contribute to the economy, anually?
+</label>,
+            <div>
+              <select
+                            name="monetary"
+                            onChange={[Function]}
+              >
+                            <option
+                                          value="1"
+                            >
+                                          1
+                            </option>
+                            <option
+                                          value="100"
+                            >
+                                          100
+                            </option>
+                            <option
+                                          value="200"
+                            >
+                                          200
+                            </option>
+                            <option
+                                          value="300"
+                            >
+                                          300
+                            </option>
+                            <option
+                                          value="400"
+                            >
+                                          400
+                            </option>
+                            <option
+                                          value="500"
+                            >
+                                          500
+                            </option>
+                            <option
+                                          value="600"
+                            >
+                                          600
+                            </option>
+                            <option
+                                          value="700"
+                            >
+                                          700
+                            </option>
+                            <option
+                                          value="800"
+                            >
+                                          800
+                            </option>
+                            <option
+                                          value="900"
+                            >
+                                          900
+                            </option>
+              </select>
+              <select
+                            name="unit"
+                            onChange={[Function]}
+              >
+                            <option
+                                          value="million"
+                            >
+                                          million
+                            </option>
+                            <option
+                                          value="billion"
+                            >
+                                          billion
+                            </option>
+              </select>
+</div>,
+            <button
+              type="submit"
+>
+              Guess
+</button>,
+            <Parallax
+              className="coins-parallax"
+              disabled={false}
+              offsetXMax={0}
+              offsetXMin={0}
+              offsetYMax={50}
+              offsetYMin={-50}
+              slowerScrollRate={false}
+              tag="div"
+>
+              <img
+                            alt="falling coins"
+                            id="coins"
+                            src="falling-coins.png"
+              />
+</Parallax>,
+          ],
+          "className": "economic-questions",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What about the Economy?",
+            },
+            "ref": null,
+            "rendered": "What about the Economy?",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "How much does bee pollination contribute to the economy, anually?",
+              "className": "question-descr",
+              "htmlFor": "economic",
+            },
+            "ref": null,
+            "rendered": "How much does bee pollination contribute to the economy, anually?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <select
+                  name="monetary"
+                  onChange={[Function]}
+>
+                  <option
+                                    value="1"
+                  >
+                                    1
+                  </option>
+                  <option
+                                    value="100"
+                  >
+                                    100
+                  </option>
+                  <option
+                                    value="200"
+                  >
+                                    200
+                  </option>
+                  <option
+                                    value="300"
+                  >
+                                    300
+                  </option>
+                  <option
+                                    value="400"
+                  >
+                                    400
+                  </option>
+                  <option
+                                    value="500"
+                  >
+                                    500
+                  </option>
+                  <option
+                                    value="600"
+                  >
+                                    600
+                  </option>
+                  <option
+                                    value="700"
+                  >
+                                    700
+                  </option>
+                  <option
+                                    value="800"
+                  >
+                                    800
+                  </option>
+                  <option
+                                    value="900"
+                  >
+                                    900
+                  </option>
+</select>,
+                <select
+                  name="unit"
+                  onChange={[Function]}
+>
+                  <option
+                                    value="million"
+                  >
+                                    million
+                  </option>
+                  <option
+                                    value="billion"
+                  >
+                                    billion
+                  </option>
+</select>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value="1"
+>
+                      1
+</option>,
+                    <option
+                      value="100"
+>
+                      100
+</option>,
+                    <option
+                      value="200"
+>
+                      200
+</option>,
+                    <option
+                      value="300"
+>
+                      300
+</option>,
+                    <option
+                      value="400"
+>
+                      400
+</option>,
+                    <option
+                      value="500"
+>
+                      500
+</option>,
+                    <option
+                      value="600"
+>
+                      600
+</option>,
+                    <option
+                      value="700"
+>
+                      700
+</option>,
+                    <option
+                      value="800"
+>
+                      800
+</option>,
+                    <option
+                      value="900"
+>
+                      900
+</option>,
+                  ],
+                  "name": "monetary",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "1",
+                      "value": "1",
+                    },
+                    "ref": null,
+                    "rendered": "1",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "100",
+                      "value": "100",
+                    },
+                    "ref": null,
+                    "rendered": "100",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "200",
+                      "value": "200",
+                    },
+                    "ref": null,
+                    "rendered": "200",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "300",
+                      "value": "300",
+                    },
+                    "ref": null,
+                    "rendered": "300",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "400",
+                      "value": "400",
+                    },
+                    "ref": null,
+                    "rendered": "400",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "500",
+                      "value": "500",
+                    },
+                    "ref": null,
+                    "rendered": "500",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "600",
+                      "value": "600",
+                    },
+                    "ref": null,
+                    "rendered": "600",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "700",
+                      "value": "700",
+                    },
+                    "ref": null,
+                    "rendered": "700",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "800",
+                      "value": "800",
+                    },
+                    "ref": null,
+                    "rendered": "800",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "900",
+                      "value": "900",
+                    },
+                    "ref": null,
+                    "rendered": "900",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value="million"
+>
+                      million
+</option>,
+                    <option
+                      value="billion"
+>
+                      billion
+</option>,
+                  ],
+                  "name": "unit",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "million",
+                      "value": "million",
+                    },
+                    "ref": null,
+                    "rendered": "million",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "billion",
+                      "value": "billion",
+                    },
+                    "ref": null,
+                    "rendered": "billion",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Guess",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Guess",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <img
+                alt="falling coins"
+                id="coins"
+                src="falling-coins.png"
+/>,
+              "className": "coins-parallax",
+              "disabled": false,
+              "offsetXMax": 0,
+              "offsetXMin": 0,
+              "offsetYMax": 50,
+              "offsetYMin": -50,
+              "slowerScrollRate": false,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "falling coins",
+                "id": "coins",
+                "src": "falling-coins.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. 
+</h1>,
+            undefined,
+            <div
+              className="econ-graph-wrap"
+>
+              <div
+                            className="us-econ-growth"
+              >
+                            <p>
+                                          US: 20 Billion
+                            </p>
+              </div>
+              <div
+                            className="world-econ-growth"
+              >
+                            <p>
+                                          World: 217 Billion
+                            </p>
+              </div>
+</div>,
+          ],
+          "className": "economic-article",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. ",
+            },
+            "ref": null,
+            "rendered": "The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. ",
+            "type": "h1",
+          },
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="us-econ-growth"
+>
+                  <p>
+                                    US: 20 Billion
+                  </p>
+</div>,
+                <div
+                  className="world-econ-growth"
+>
+                  <p>
+                                    World: 217 Billion
+                  </p>
+</div>,
+              ],
+              "className": "econ-graph-wrap",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <p>
+                    US: 20 Billion
+</p>,
+                  "className": "us-econ-growth",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "US: 20 Billion",
+                  },
+                  "ref": null,
+                  "rendered": "US: 20 Billion",
+                  "type": "p",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <p>
+                    World: 217 Billion
+</p>,
+                  "className": "world-econ-growth",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "World: 217 Billion",
+                  },
+                  "ref": null,
+                  "rendered": "World: 217 Billion",
+                  "type": "p",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "article",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            className="diet-form"
+            onSubmit={[Function]}
+>
+            <div
+                        className="question-cont"
+            >
+                        <h2
+                                    id="food-h2"
+                        >
+                                    Let's talk about food...
+                        </h2>
+                        <img
+                                    alt="fruit arrangement"
+                                    className="fruit-arrangement"
+                                    src="raspberryStarfruit.png"
+                        />
+                        <Parallax
+                                    disabled={false}
+                                    offsetXMax={0}
+                                    offsetXMin={0}
+                                    offsetYMax={900}
+                                    offsetYMin={0}
+                                    slowerScrollRate={true}
+                                    tag="div"
+                        >
+                                    <img
+                                                alt="orange"
+                                                className="raining-fruit rain-1"
+                                                onLoad={[Function]}
+                                                src="orange.png"
+                                    />
+                                    <img
+                                                alt="apple"
+                                                className="raining-fruit rain-2"
+                                                onLoad={[Function]}
+                                                src="apple.png"
+                                    />
+                                    <img
+                                                alt="acerola"
+                                                className="raining-fruit rain-3"
+                                                onLoad={[Function]}
+                                                src="acerola.png"
+                                    />
+                                    <img
+                                                alt="banana"
+                                                className="raining-fruit rain-4"
+                                                onLoad={[Function]}
+                                                src="banana.png"
+                                    />
+                                    <img
+                                                alt="blackberry"
+                                                className="raining-fruit rain-5"
+                                                onLoad={[Function]}
+                                                src="blackberry.png"
+                                    />
+                                    <img
+                                                alt="cherry"
+                                                className="raining-fruit rain-6"
+                                                onLoad={[Function]}
+                                                src="cherry.png"
+                                    />
+                                    <img
+                                                alt="cucumber"
+                                                className="raining-fruit rain-7"
+                                                onLoad={[Function]}
+                                                src="cucumber.png"
+                                    />
+                                    <img
+                                                alt="peach"
+                                                className="raining-fruit rain-8"
+                                                onLoad={[Function]}
+                                                src="Peach.png"
+                                    />
+                                    <img
+                                                alt="raspberry"
+                                                className="raining-fruit rain-9"
+                                                onLoad={[Function]}
+                                                src="raspberry.png"
+                                    />
+                        </Parallax>
+            </div>
+            <label
+                        className="question-descr"
+                        htmlFor="diet"
+            >
+                        What percentage of your diet do you think is provided by bees?
+            </label>
+            <PieChart
+                        updateImpactPercent={[Function]}
+            />
+            <button
+                        type="submit"
+            >
+                        Guess
+            </button>
+</form>,
+          <article
+            className="diet-article"
+>
+            <div
+                        className="diet-article-volume"
+            >
+                        <h1
+                                    id="diet-header"
+                        >
+                                    In your daily diet,
+                        </h1>
+                        <h1>
+                                    30% of food you eat is pollinated by bees
+                        </h1>
+                        <p>
+                                    The other 70% consists of wheat, rice and corn, all which are wind pollinated
+                        </p>
+                        <div
+                                    className="wind-foods-cont"
+                        >
+                                    <Parallax
+                                                disabled={false}
+                                                offsetXMax={0}
+                                                offsetXMin={0}
+                                                offsetYMax={50}
+                                                offsetYMin={-100}
+                                                slowerScrollRate={false}
+                                                tag="div"
+                                    >
+                                                <div
+                                                            className="wheat-cont"
+                                                >
+                                                            <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat1"
+                                                                        src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat2"
+                                                                        src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat3"
+                                                                        src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                        alt="wheat grass"
+                                                                        className="wheat"
+                                                                        id="wheat4"
+                                                                        src="wheat-cropped.png"
+                                                            />
+                                                </div>
+                                    </Parallax>
+                        </div>
+            </div>
+            <h1>
+                        60% of the diversity of food you eat is pollinated by bees
+            </h1>
+            <p>
+                        This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados
+            </p>
+            <div
+                        className="foods-cont"
+            >
+                        <img
+                                    alt="all the fruits"
+                                    className="word-cloud"
+                                    src="wordcloud.png"
+                        />
+            </div>
+</article>,
+          <form
+            className="economic-questions"
+            onSubmit={[Function]}
+>
+            <h2>
+                        What about the Economy?
+            </h2>
+            <label
+                        className="question-descr"
+                        htmlFor="economic"
+            >
+                        How much does bee pollination contribute to the economy, anually?
+            </label>
+            <div>
+                        <select
+                                    name="monetary"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                value="1"
+                                    >
+                                                1
+                                    </option>
+                                    <option
+                                                value="100"
+                                    >
+                                                100
+                                    </option>
+                                    <option
+                                                value="200"
+                                    >
+                                                200
+                                    </option>
+                                    <option
+                                                value="300"
+                                    >
+                                                300
+                                    </option>
+                                    <option
+                                                value="400"
+                                    >
+                                                400
+                                    </option>
+                                    <option
+                                                value="500"
+                                    >
+                                                500
+                                    </option>
+                                    <option
+                                                value="600"
+                                    >
+                                                600
+                                    </option>
+                                    <option
+                                                value="700"
+                                    >
+                                                700
+                                    </option>
+                                    <option
+                                                value="800"
+                                    >
+                                                800
+                                    </option>
+                                    <option
+                                                value="900"
+                                    >
+                                                900
+                                    </option>
+                        </select>
+                        <select
+                                    name="unit"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                value="million"
+                                    >
+                                                million
+                                    </option>
+                                    <option
+                                                value="billion"
+                                    >
+                                                billion
+                                    </option>
+                        </select>
+            </div>
+            <button
+                        type="submit"
+            >
+                        Guess
+            </button>
+            <Parallax
+                        className="coins-parallax"
+                        disabled={false}
+                        offsetXMax={0}
+                        offsetXMin={0}
+                        offsetYMax={50}
+                        offsetYMin={-50}
+                        slowerScrollRate={false}
+                        tag="div"
+            >
+                        <img
+                                    alt="falling coins"
+                                    id="coins"
+                                    src="falling-coins.png"
+                        />
+            </Parallax>
+</form>,
+          <article
+            className="economic-article"
+>
+            <h1>
+                        The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. 
+            </h1>
+            <div
+                        className="econ-graph-wrap"
+            >
+                        <div
+                                    className="us-econ-growth"
+                        >
+                                    <p>
+                                                US: 20 Billion
+                                    </p>
+                        </div>
+                        <div
+                                    className="world-econ-growth"
+                        >
+                                    <p>
+                                                World: 217 Billion
+                                    </p>
+                        </div>
+            </div>
+</article>,
+        ],
+        "className": "Impact",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="question-cont"
+>
+                <h2
+                                id="food-h2"
+                >
+                                Let's talk about food...
+                </h2>
+                <img
+                                alt="fruit arrangement"
+                                className="fruit-arrangement"
+                                src="raspberryStarfruit.png"
+                />
+                <Parallax
+                                disabled={false}
+                                offsetXMax={0}
+                                offsetXMin={0}
+                                offsetYMax={900}
+                                offsetYMin={0}
+                                slowerScrollRate={true}
+                                tag="div"
+                >
+                                <img
+                                                alt="orange"
+                                                className="raining-fruit rain-1"
+                                                onLoad={[Function]}
+                                                src="orange.png"
+                                />
+                                <img
+                                                alt="apple"
+                                                className="raining-fruit rain-2"
+                                                onLoad={[Function]}
+                                                src="apple.png"
+                                />
+                                <img
+                                                alt="acerola"
+                                                className="raining-fruit rain-3"
+                                                onLoad={[Function]}
+                                                src="acerola.png"
+                                />
+                                <img
+                                                alt="banana"
+                                                className="raining-fruit rain-4"
+                                                onLoad={[Function]}
+                                                src="banana.png"
+                                />
+                                <img
+                                                alt="blackberry"
+                                                className="raining-fruit rain-5"
+                                                onLoad={[Function]}
+                                                src="blackberry.png"
+                                />
+                                <img
+                                                alt="cherry"
+                                                className="raining-fruit rain-6"
+                                                onLoad={[Function]}
+                                                src="cherry.png"
+                                />
+                                <img
+                                                alt="cucumber"
+                                                className="raining-fruit rain-7"
+                                                onLoad={[Function]}
+                                                src="cucumber.png"
+                                />
+                                <img
+                                                alt="peach"
+                                                className="raining-fruit rain-8"
+                                                onLoad={[Function]}
+                                                src="Peach.png"
+                                />
+                                <img
+                                                alt="raspberry"
+                                                className="raining-fruit rain-9"
+                                                onLoad={[Function]}
+                                                src="raspberry.png"
+                                />
+                </Parallax>
+</div>,
+              <label
+                className="question-descr"
+                htmlFor="diet"
+>
+                What percentage of your diet do you think is provided by bees?
+</label>,
+              <PieChart
+                updateImpactPercent={[Function]}
+/>,
+              <button
+                type="submit"
+>
+                Guess
+</button>,
+            ],
+            "className": "diet-form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    id="food-h2"
+>
+                    Let's talk about food...
+</h2>,
+                  <img
+                    alt="fruit arrangement"
+                    className="fruit-arrangement"
+                    src="raspberryStarfruit.png"
+/>,
+                  <Parallax
+                    disabled={false}
+                    offsetXMax={0}
+                    offsetXMin={0}
+                    offsetYMax={900}
+                    offsetYMin={0}
+                    slowerScrollRate={true}
+                    tag="div"
+>
+                    <img
+                                        alt="orange"
+                                        className="raining-fruit rain-1"
+                                        onLoad={[Function]}
+                                        src="orange.png"
+                    />
+                    <img
+                                        alt="apple"
+                                        className="raining-fruit rain-2"
+                                        onLoad={[Function]}
+                                        src="apple.png"
+                    />
+                    <img
+                                        alt="acerola"
+                                        className="raining-fruit rain-3"
+                                        onLoad={[Function]}
+                                        src="acerola.png"
+                    />
+                    <img
+                                        alt="banana"
+                                        className="raining-fruit rain-4"
+                                        onLoad={[Function]}
+                                        src="banana.png"
+                    />
+                    <img
+                                        alt="blackberry"
+                                        className="raining-fruit rain-5"
+                                        onLoad={[Function]}
+                                        src="blackberry.png"
+                    />
+                    <img
+                                        alt="cherry"
+                                        className="raining-fruit rain-6"
+                                        onLoad={[Function]}
+                                        src="cherry.png"
+                    />
+                    <img
+                                        alt="cucumber"
+                                        className="raining-fruit rain-7"
+                                        onLoad={[Function]}
+                                        src="cucumber.png"
+                    />
+                    <img
+                                        alt="peach"
+                                        className="raining-fruit rain-8"
+                                        onLoad={[Function]}
+                                        src="Peach.png"
+                    />
+                    <img
+                                        alt="raspberry"
+                                        className="raining-fruit rain-9"
+                                        onLoad={[Function]}
+                                        src="raspberry.png"
+                    />
+</Parallax>,
+                ],
+                "className": "question-cont",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Let's talk about food...",
+                    "id": "food-h2",
+                  },
+                  "ref": null,
+                  "rendered": "Let's talk about food...",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "fruit arrangement",
+                    "className": "fruit-arrangement",
+                    "src": "raspberryStarfruit.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="orange"
+                        className="raining-fruit rain-1"
+                        onLoad={[Function]}
+                        src="orange.png"
+/>,
+                      <img
+                        alt="apple"
+                        className="raining-fruit rain-2"
+                        onLoad={[Function]}
+                        src="apple.png"
+/>,
+                      <img
+                        alt="acerola"
+                        className="raining-fruit rain-3"
+                        onLoad={[Function]}
+                        src="acerola.png"
+/>,
+                      <img
+                        alt="banana"
+                        className="raining-fruit rain-4"
+                        onLoad={[Function]}
+                        src="banana.png"
+/>,
+                      <img
+                        alt="blackberry"
+                        className="raining-fruit rain-5"
+                        onLoad={[Function]}
+                        src="blackberry.png"
+/>,
+                      <img
+                        alt="cherry"
+                        className="raining-fruit rain-6"
+                        onLoad={[Function]}
+                        src="cherry.png"
+/>,
+                      <img
+                        alt="cucumber"
+                        className="raining-fruit rain-7"
+                        onLoad={[Function]}
+                        src="cucumber.png"
+/>,
+                      <img
+                        alt="peach"
+                        className="raining-fruit rain-8"
+                        onLoad={[Function]}
+                        src="Peach.png"
+/>,
+                      <img
+                        alt="raspberry"
+                        className="raining-fruit rain-9"
+                        onLoad={[Function]}
+                        src="raspberry.png"
+/>,
+                    ],
+                    "disabled": false,
+                    "offsetXMax": 0,
+                    "offsetXMin": 0,
+                    "offsetYMax": 900,
+                    "offsetYMin": 0,
+                    "slowerScrollRate": true,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "orange",
+                        "className": "raining-fruit rain-1",
+                        "onLoad": [Function],
+                        "src": "orange.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "apple",
+                        "className": "raining-fruit rain-2",
+                        "onLoad": [Function],
+                        "src": "apple.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "acerola",
+                        "className": "raining-fruit rain-3",
+                        "onLoad": [Function],
+                        "src": "acerola.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "banana",
+                        "className": "raining-fruit rain-4",
+                        "onLoad": [Function],
+                        "src": "banana.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "blackberry",
+                        "className": "raining-fruit rain-5",
+                        "onLoad": [Function],
+                        "src": "blackberry.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "cherry",
+                        "className": "raining-fruit rain-6",
+                        "onLoad": [Function],
+                        "src": "cherry.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "cucumber",
+                        "className": "raining-fruit rain-7",
+                        "onLoad": [Function],
+                        "src": "cucumber.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "peach",
+                        "className": "raining-fruit rain-8",
+                        "onLoad": [Function],
+                        "src": "Peach.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "raspberry",
+                        "className": "raining-fruit rain-9",
+                        "onLoad": [Function],
+                        "src": "raspberry.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What percentage of your diet do you think is provided by bees?",
+                "className": "question-descr",
+                "htmlFor": "diet",
+              },
+              "ref": null,
+              "rendered": "What percentage of your diet do you think is provided by bees?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "updateImpactPercent": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Guess",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Guess",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="diet-article-volume"
+>
+                <h1
+                                id="diet-header"
+                >
+                                In your daily diet,
+                </h1>
+                <h1>
+                                30% of food you eat is pollinated by bees
+                </h1>
+                <p>
+                                The other 70% consists of wheat, rice and corn, all which are wind pollinated
+                </p>
+                <div
+                                className="wind-foods-cont"
+                >
+                                <Parallax
+                                                disabled={false}
+                                                offsetXMax={0}
+                                                offsetXMin={0}
+                                                offsetYMax={50}
+                                                offsetYMin={-100}
+                                                slowerScrollRate={false}
+                                                tag="div"
+                                >
+                                                <div
+                                                                className="wheat-cont"
+                                                >
+                                                                <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat1"
+                                                                                src="wheat-cropped.png"
+                                                                />
+                                                                <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat2"
+                                                                                src="wheat-cropped.png"
+                                                                />
+                                                                <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat3"
+                                                                                src="wheat-cropped.png"
+                                                                />
+                                                                <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat4"
+                                                                                src="wheat-cropped.png"
+                                                                />
+                                                </div>
+                                </Parallax>
+                </div>
+</div>,
+              <h1>
+                60% of the diversity of food you eat is pollinated by bees
+</h1>,
+              <p>
+                This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados
+</p>,
+              <div
+                className="foods-cont"
+>
+                <img
+                                alt="all the fruits"
+                                className="word-cloud"
+                                src="wordcloud.png"
+                />
+</div>,
+            ],
+            "className": "diet-article",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    id="diet-header"
+>
+                    In your daily diet,
+</h1>,
+                  <h1>
+                    30% of food you eat is pollinated by bees
+</h1>,
+                  <p>
+                    The other 70% consists of wheat, rice and corn, all which are wind pollinated
+</p>,
+                  <div
+                    className="wind-foods-cont"
+>
+                    <Parallax
+                                        disabled={false}
+                                        offsetXMax={0}
+                                        offsetXMin={0}
+                                        offsetYMax={50}
+                                        offsetYMin={-100}
+                                        slowerScrollRate={false}
+                                        tag="div"
+                    >
+                                        <div
+                                                            className="wheat-cont"
+                                        >
+                                                            <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat1"
+                                                                                src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat2"
+                                                                                src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat3"
+                                                                                src="wheat-cropped.png"
+                                                            />
+                                                            <img
+                                                                                alt="wheat grass"
+                                                                                className="wheat"
+                                                                                id="wheat4"
+                                                                                src="wheat-cropped.png"
+                                                            />
+                                        </div>
+                    </Parallax>
+</div>,
+                ],
+                "className": "diet-article-volume",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "In your daily diet,",
+                    "id": "diet-header",
+                  },
+                  "ref": null,
+                  "rendered": "In your daily diet,",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "30% of food you eat is pollinated by bees",
+                  },
+                  "ref": null,
+                  "rendered": "30% of food you eat is pollinated by bees",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "The other 70% consists of wheat, rice and corn, all which are wind pollinated",
+                  },
+                  "ref": null,
+                  "rendered": "The other 70% consists of wheat, rice and corn, all which are wind pollinated",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Parallax
+                      disabled={false}
+                      offsetXMax={0}
+                      offsetXMin={0}
+                      offsetYMax={50}
+                      offsetYMin={-100}
+                      slowerScrollRate={false}
+                      tag="div"
+>
+                      <div
+                                            className="wheat-cont"
+                      >
+                                            <img
+                                                                  alt="wheat grass"
+                                                                  className="wheat"
+                                                                  id="wheat1"
+                                                                  src="wheat-cropped.png"
+                                            />
+                                            <img
+                                                                  alt="wheat grass"
+                                                                  className="wheat"
+                                                                  id="wheat2"
+                                                                  src="wheat-cropped.png"
+                                            />
+                                            <img
+                                                                  alt="wheat grass"
+                                                                  className="wheat"
+                                                                  id="wheat3"
+                                                                  src="wheat-cropped.png"
+                                            />
+                                            <img
+                                                                  alt="wheat grass"
+                                                                  className="wheat"
+                                                                  id="wheat4"
+                                                                  src="wheat-cropped.png"
+                                            />
+                      </div>
+</Parallax>,
+                    "className": "wind-foods-cont",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <div
+                        className="wheat-cont"
+>
+                        <img
+                                                alt="wheat grass"
+                                                className="wheat"
+                                                id="wheat1"
+                                                src="wheat-cropped.png"
+                        />
+                        <img
+                                                alt="wheat grass"
+                                                className="wheat"
+                                                id="wheat2"
+                                                src="wheat-cropped.png"
+                        />
+                        <img
+                                                alt="wheat grass"
+                                                className="wheat"
+                                                id="wheat3"
+                                                src="wheat-cropped.png"
+                        />
+                        <img
+                                                alt="wheat grass"
+                                                className="wheat"
+                                                id="wheat4"
+                                                src="wheat-cropped.png"
+                        />
+</div>,
+                      "disabled": false,
+                      "offsetXMax": 0,
+                      "offsetXMin": 0,
+                      "offsetYMax": 50,
+                      "offsetYMin": -100,
+                      "slowerScrollRate": false,
+                      "tag": "div",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="wheat grass"
+                            className="wheat"
+                            id="wheat1"
+                            src="wheat-cropped.png"
+/>,
+                          <img
+                            alt="wheat grass"
+                            className="wheat"
+                            id="wheat2"
+                            src="wheat-cropped.png"
+/>,
+                          <img
+                            alt="wheat grass"
+                            className="wheat"
+                            id="wheat3"
+                            src="wheat-cropped.png"
+/>,
+                          <img
+                            alt="wheat grass"
+                            className="wheat"
+                            id="wheat4"
+                            src="wheat-cropped.png"
+/>,
+                        ],
+                        "className": "wheat-cont",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "wheat grass",
+                            "className": "wheat",
+                            "id": "wheat1",
+                            "src": "wheat-cropped.png",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "wheat grass",
+                            "className": "wheat",
+                            "id": "wheat2",
+                            "src": "wheat-cropped.png",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "wheat grass",
+                            "className": "wheat",
+                            "id": "wheat3",
+                            "src": "wheat-cropped.png",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "wheat grass",
+                            "className": "wheat",
+                            "id": "wheat4",
+                            "src": "wheat-cropped.png",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "60% of the diversity of food you eat is pollinated by bees",
+              },
+              "ref": null,
+              "rendered": "60% of the diversity of food you eat is pollinated by bees",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados",
+              },
+              "ref": null,
+              "rendered": "This is because most fruits and vegetables are animal pollinated, including chocolate, coffee, tea, and avocados",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="all the fruits"
+                  className="word-cloud"
+                  src="wordcloud.png"
+/>,
+                "className": "foods-cont",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "all the fruits",
+                  "className": "word-cloud",
+                  "src": "wordcloud.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                What about the Economy?
+</h2>,
+              <label
+                className="question-descr"
+                htmlFor="economic"
+>
+                How much does bee pollination contribute to the economy, anually?
+</label>,
+              <div>
+                <select
+                                name="monetary"
+                                onChange={[Function]}
+                >
+                                <option
+                                                value="1"
+                                >
+                                                1
+                                </option>
+                                <option
+                                                value="100"
+                                >
+                                                100
+                                </option>
+                                <option
+                                                value="200"
+                                >
+                                                200
+                                </option>
+                                <option
+                                                value="300"
+                                >
+                                                300
+                                </option>
+                                <option
+                                                value="400"
+                                >
+                                                400
+                                </option>
+                                <option
+                                                value="500"
+                                >
+                                                500
+                                </option>
+                                <option
+                                                value="600"
+                                >
+                                                600
+                                </option>
+                                <option
+                                                value="700"
+                                >
+                                                700
+                                </option>
+                                <option
+                                                value="800"
+                                >
+                                                800
+                                </option>
+                                <option
+                                                value="900"
+                                >
+                                                900
+                                </option>
+                </select>
+                <select
+                                name="unit"
+                                onChange={[Function]}
+                >
+                                <option
+                                                value="million"
+                                >
+                                                million
+                                </option>
+                                <option
+                                                value="billion"
+                                >
+                                                billion
+                                </option>
+                </select>
+</div>,
+              <button
+                type="submit"
+>
+                Guess
+</button>,
+              <Parallax
+                className="coins-parallax"
+                disabled={false}
+                offsetXMax={0}
+                offsetXMin={0}
+                offsetYMax={50}
+                offsetYMin={-50}
+                slowerScrollRate={false}
+                tag="div"
+>
+                <img
+                                alt="falling coins"
+                                id="coins"
+                                src="falling-coins.png"
+                />
+</Parallax>,
+            ],
+            "className": "economic-questions",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What about the Economy?",
+              },
+              "ref": null,
+              "rendered": "What about the Economy?",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How much does bee pollination contribute to the economy, anually?",
+                "className": "question-descr",
+                "htmlFor": "economic",
+              },
+              "ref": null,
+              "rendered": "How much does bee pollination contribute to the economy, anually?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <select
+                    name="monetary"
+                    onChange={[Function]}
+>
+                    <option
+                                        value="1"
+                    >
+                                        1
+                    </option>
+                    <option
+                                        value="100"
+                    >
+                                        100
+                    </option>
+                    <option
+                                        value="200"
+                    >
+                                        200
+                    </option>
+                    <option
+                                        value="300"
+                    >
+                                        300
+                    </option>
+                    <option
+                                        value="400"
+                    >
+                                        400
+                    </option>
+                    <option
+                                        value="500"
+                    >
+                                        500
+                    </option>
+                    <option
+                                        value="600"
+                    >
+                                        600
+                    </option>
+                    <option
+                                        value="700"
+                    >
+                                        700
+                    </option>
+                    <option
+                                        value="800"
+                    >
+                                        800
+                    </option>
+                    <option
+                                        value="900"
+                    >
+                                        900
+                    </option>
+</select>,
+                  <select
+                    name="unit"
+                    onChange={[Function]}
+>
+                    <option
+                                        value="million"
+                    >
+                                        million
+                    </option>
+                    <option
+                                        value="billion"
+                    >
+                                        billion
+                    </option>
+</select>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value="1"
+>
+                        1
+</option>,
+                      <option
+                        value="100"
+>
+                        100
+</option>,
+                      <option
+                        value="200"
+>
+                        200
+</option>,
+                      <option
+                        value="300"
+>
+                        300
+</option>,
+                      <option
+                        value="400"
+>
+                        400
+</option>,
+                      <option
+                        value="500"
+>
+                        500
+</option>,
+                      <option
+                        value="600"
+>
+                        600
+</option>,
+                      <option
+                        value="700"
+>
+                        700
+</option>,
+                      <option
+                        value="800"
+>
+                        800
+</option>,
+                      <option
+                        value="900"
+>
+                        900
+</option>,
+                    ],
+                    "name": "monetary",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "1",
+                        "value": "1",
+                      },
+                      "ref": null,
+                      "rendered": "1",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "100",
+                        "value": "100",
+                      },
+                      "ref": null,
+                      "rendered": "100",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "200",
+                        "value": "200",
+                      },
+                      "ref": null,
+                      "rendered": "200",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "300",
+                        "value": "300",
+                      },
+                      "ref": null,
+                      "rendered": "300",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "400",
+                        "value": "400",
+                      },
+                      "ref": null,
+                      "rendered": "400",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "500",
+                        "value": "500",
+                      },
+                      "ref": null,
+                      "rendered": "500",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "600",
+                        "value": "600",
+                      },
+                      "ref": null,
+                      "rendered": "600",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "700",
+                        "value": "700",
+                      },
+                      "ref": null,
+                      "rendered": "700",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "800",
+                        "value": "800",
+                      },
+                      "ref": null,
+                      "rendered": "800",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "900",
+                        "value": "900",
+                      },
+                      "ref": null,
+                      "rendered": "900",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value="million"
+>
+                        million
+</option>,
+                      <option
+                        value="billion"
+>
+                        billion
+</option>,
+                    ],
+                    "name": "unit",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "million",
+                        "value": "million",
+                      },
+                      "ref": null,
+                      "rendered": "million",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "billion",
+                        "value": "billion",
+                      },
+                      "ref": null,
+                      "rendered": "billion",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Guess",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Guess",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <img
+                  alt="falling coins"
+                  id="coins"
+                  src="falling-coins.png"
+/>,
+                "className": "coins-parallax",
+                "disabled": false,
+                "offsetXMax": 0,
+                "offsetXMin": 0,
+                "offsetYMax": 50,
+                "offsetYMin": -50,
+                "slowerScrollRate": false,
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "falling coins",
+                  "id": "coins",
+                  "src": "falling-coins.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. 
+</h1>,
+              undefined,
+              <div
+                className="econ-graph-wrap"
+>
+                <div
+                                className="us-econ-growth"
+                >
+                                <p>
+                                                US: 20 Billion
+                                </p>
+                </div>
+                <div
+                                className="world-econ-growth"
+                >
+                                <p>
+                                                World: 217 Billion
+                                </p>
+                </div>
+</div>,
+            ],
+            "className": "economic-article",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. ",
+              },
+              "ref": null,
+              "rendered": "The honeybee pollination services are valued to be just above $20 billion in the United States. World wide, that number rises to $217 billion. ",
+              "type": "h1",
+            },
+            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="us-econ-growth"
+>
+                    <p>
+                                        US: 20 Billion
+                    </p>
+</div>,
+                  <div
+                    className="world-econ-growth"
+>
+                    <p>
+                                        World: 217 Billion
+                    </p>
+</div>,
+                ],
+                "className": "econ-graph-wrap",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p>
+                      US: 20 Billion
+</p>,
+                    "className": "us-econ-growth",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "US: 20 Billion",
+                    },
+                    "ref": null,
+                    "rendered": "US: 20 Billion",
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p>
+                      World: 217 Billion
+</p>,
+                    "className": "world-econ-growth",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "World: 217 Billion",
+                    },
+                    "ref": null,
+                    "rendered": "World: 217 Billion",
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "article",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

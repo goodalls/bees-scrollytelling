@@ -1,0 +1,92 @@
+/*color variables*/
+*, :after, :before {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+  align-items: center;
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+form {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  form label {
+    align-self: left;
+    margin: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end; }
+  form h2 {
+    align-self: left;
+    font-size: 5em;
+    margin: 20px 0; }
+
+input:focus {
+  outline: none; }
+
+input[type="text"] {
+  margin: 10px 0 50px;
+  font-size: 1.5em;
+  height: 50px; }
+
+button {
+  height: 62px;
+  border: none;
+  background-color: #ffffff;
+  color: #60CA9B;
+  font-size: 1.5em;
+  margin: 30px auto 10px;
+  width: 162px;
+  border: 3px solid #60CA9B;
+  border-radius: 51px;
+  transition: background-color 0.5s ease;
+  outline: none; }
+  button:hover {
+    cursor: pointer;
+    background-color: #60CA9B;
+    color: white; }
+
+.question-descr {
+  font-size: 2em; }
+
+#displayAll {
+  display: block; }
+
+#displayNone {
+  display: none; }
+
+.progress-container {
+  transform: rotate(90deg);
+  position: fixed;
+  top: calc(96% - 360px);
+  left: calc(2% - 360px);
+  height: 30px;
+  width: 100vh; }
+
+.progress-bar {
+  height: 30px;
+  background-image: url("../../assets/bee3.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 30px 30px; }
+
+.arrow-cont {
+  height: 150px; }
+
+.hover-arrow {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  bottom: 0;
+  width: 100px; }
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0; }
+  50% {
+    bottom: 50px; } }

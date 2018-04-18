@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchButton matches the Snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SwitchButton
+    toggleQuestionsEnabled={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          checked={true}
+          id="toggle"
+          onChange={[Function]}
+          type="checkbox"
+/>,
+        <label
+          htmlFor="toggle"
+>
+          <h4>
+                    Questions
+          </h4>
+          <div>
+                    <p>
+                              On
+                    </p>
+                    <p>
+                              Off
+                    </p>
+          </div>
+</label>,
+      ],
+      "className": "toggle",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "checked": true,
+          "id": "toggle",
+          "onChange": [Function],
+          "type": "checkbox",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Questions
+</h4>,
+            <div>
+              <p>
+                            On
+              </p>
+              <p>
+                            Off
+              </p>
+</div>,
+          ],
+          "htmlFor": "toggle",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Questions",
+            },
+            "ref": null,
+            "rendered": "Questions",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  On
+</p>,
+                <p>
+                  Off
+</p>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "On",
+                },
+                "ref": null,
+                "rendered": "On",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Off",
+                },
+                "ref": null,
+                "rendered": "Off",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "label",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            checked={true}
+            id="toggle"
+            onChange={[Function]}
+            type="checkbox"
+/>,
+          <label
+            htmlFor="toggle"
+>
+            <h4>
+                        Questions
+            </h4>
+            <div>
+                        <p>
+                                    On
+                        </p>
+                        <p>
+                                    Off
+                        </p>
+            </div>
+</label>,
+        ],
+        "className": "toggle",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "checked": true,
+            "id": "toggle",
+            "onChange": [Function],
+            "type": "checkbox",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Questions
+</h4>,
+              <div>
+                <p>
+                                On
+                </p>
+                <p>
+                                Off
+                </p>
+</div>,
+            ],
+            "htmlFor": "toggle",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Questions",
+              },
+              "ref": null,
+              "rendered": "Questions",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    On
+</p>,
+                  <p>
+                    Off
+</p>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "On",
+                  },
+                  "ref": null,
+                  "rendered": "On",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Off",
+                  },
+                  "ref": null,
+                  "rendered": "Off",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "label",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,83 @@
+@import '../../assets/variables.scss';
+
+@mixin circle($size) {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - #{$size/2});
+  top: calc(50% - #{$size/2});
+  width: $size;
+  height: $size;
+}
+
+$size: 200px;
+.progress-pie-chart {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+  position: relative;
+  &.gt-50 {
+     background-color: $seafoam;
+  }
+}
+.ppc-progress {
+  @include circle($size);
+  clip: rect(0, $size, $size, #{$size/2});
+  .ppc-progress-fill {
+    @include circle($size);
+    clip: rect(0, #{$size/2}, $size, 0);
+    background: $seafoam;
+    transform: rotate(60deg);
+  }
+  .gt-50 & {
+    clip: rect(0, #{$size/2}, $size, 0);
+    .ppc-progress-fill {
+      clip: rect(0, $size, $size, #{$size/2});
+      background: #E5E5E5;
+    }
+  }
+}
+.ppc-percents {
+  @include circle(#{$size/1.15});
+  background: #fff;
+  text-align: center;
+  display: table;
+  span {
+    display: block;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: $seafoam;
+  }
+}
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.pie-chart-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0;
+}
+
+.pie-chart-cont label {
+  padding-left: 16px;
+}
+
+.pie-chart-cont input {
+  margin-left: 20px;
+  border: 2px solid #e5e5e5;
+  width: 90px;
+  border-radius: 52px;
+  height: 37px;
+  padding-left: 5px;
+  font-size: 1.3em;
+  text-align: center;
+  z-index: 3;
+}
+
+.progress-pie-chart {
+  margin: 10px 0;
+}

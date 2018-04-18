@@ -1,0 +1,35 @@
+@import '../../assets/variables.scss';
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  & h2 {
+    font-size: 3em;
+  }
+
+  & h4, h6 {
+    font-size: 1.5em;
+  }
+}
+
+.statistics-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $shadowgray;
+  width: 100%;
+  align-items: center;
+  box-shadow: 5px 5px 5px $shadowgray;
+  margin: 10px;
+}
+
+.answer {
+  border: 1px solid magenta;
+}
+
+hr {
+  border: 1px solid $seafoam;
+  width: 50%;
+}

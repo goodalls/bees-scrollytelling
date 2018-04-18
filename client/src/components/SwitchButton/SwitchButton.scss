@@ -1,0 +1,98 @@
+@import '../../assets/variables.scss';
+
+.toggle {
+  margin: 10px 0;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  
+  label {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #e1e1e1;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.1);
+    -webkit-tap-highlight-color: transparent;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      height: 34px;
+      width: 34px;
+      background-color: #fff;
+      border-radius: 46px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+      animation: moveLeft 0.3s ease-in-out;
+    }
+
+    & div {
+      display: flex;
+      justify-content: space-around;
+/*      position: absolute;
+      top: -17px;
+      right: 92px;
+      width: fit-content;*/
+      text-align: right;
+      
+      & p {
+        margin: 10px 0;
+      }
+    }
+
+    & h4 {
+      position: absolute;
+      bottom: 19px;
+      left: 12px;
+    }
+  }
+
+  input {
+    display: none;
+
+    &:checked + label {
+      background-color: $seafoam;
+      
+      &:before {
+        transform: translateX(40px);
+        box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1);
+        animation: moveRight 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    width: 46px;
+    transform: translateX(0);
+  }
+  45% {
+    width: 52px;
+  }
+  100% {
+    width: 46px;
+    transform: translateX(40px);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    width: 46px;
+    transform: translateX(40px);
+  }
+  45% {
+    width: 52px;
+  }
+  100% {
+    width: 46px;
+    transform: translateX(0);
+  }
+}

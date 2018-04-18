@@ -1,0 +1,2244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches the Snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    questionsEnabled={true}
+    saveUser={[Function]}
+    startScroll={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="page-header-img"
+/>,
+        <header
+          className="page-header"
+>
+          <h1>
+                    Bees and Our Food
+          </h1>
+          <p>
+                    An interactive guide to how bees keep us well fed
+          </p>
+</header>,
+        <form
+          className="user-info-form"
+          onSubmit={[Function]}
+>
+          <h2>
+                    <Parallax
+                              className="parallax-first"
+                              disabled={false}
+                              offsetXMax={0}
+                              offsetXMin={0}
+                              offsetYMax={85}
+                              offsetYMin={0}
+                              slowerScrollRate={true}
+                              tag="div"
+                    >
+                              First,
+                    </Parallax>
+                    let's get to know you
+          </h2>
+          <div
+                    className="questions-cont"
+          >
+                    <div>
+                              <h3
+                                        className="question-descr"
+                              >
+                                        Select your age
+                              </h3>
+                              <label
+                                        htmlFor="age13-19"
+                              >
+                                        13-19
+                                        <input
+                                                  id="age13-19"
+                                                  name="age"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="13-19"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="age20-39"
+                              >
+                                        20-39
+                                        <input
+                                                  id="age20-39"
+                                                  name="age"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="20-39"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="age40-59"
+                              >
+                                        40-59
+                                        <input
+                                                  id="age40-59"
+                                                  name="age"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="40-59"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="age60-79"
+                              >
+                                        60-79
+                                        <input
+                                                  id="age60-79"
+                                                  name="age"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="60-79"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="age79+"
+                              >
+                                        79+
+                                        <input
+                                                  id="age79+"
+                                                  name="age"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="79+"
+                                        />
+                              </label>
+                    </div>
+                    <div
+                              id="concern"
+                    >
+                              <h3
+                                        className="question-descr"
+                              >
+                                        How concerned are you about bees?
+                              </h3>
+                              <label
+                                        htmlFor="concernNot at all concerned"
+                              >
+                                        Not at all concerned
+                                        <input
+                                                  id="concernNot at all concerned"
+                                                  name="concern"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="Not at all concerned"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="concernA little concerned"
+                              >
+                                        A little concerned
+                                        <input
+                                                  id="concernA little concerned"
+                                                  name="concern"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="A little concerned"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="concernVery concerned"
+                              >
+                                        Very concerned
+                                        <input
+                                                  id="concernVery concerned"
+                                                  name="concern"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="Very concerned"
+                                        />
+                              </label>
+                              <label
+                                        htmlFor="concernHaven't thought about it"
+                              >
+                                        Haven't thought about it
+                                        <input
+                                                  id="concernHaven't thought about it"
+                                                  name="concern"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="Haven't thought about it"
+                                        />
+                              </label>
+                    </div>
+          </div>
+          <button
+                    type="submit"
+          >
+                    Guess
+          </button>
+</form>,
+      ],
+      "className": "Header",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "page-header-img",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Bees and Our Food
+</h1>,
+            <p>
+              An interactive guide to how bees keep us well fed
+</p>,
+          ],
+          "className": "page-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bees and Our Food",
+            },
+            "ref": null,
+            "rendered": "Bees and Our Food",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "An interactive guide to how bees keep us well fed",
+            },
+            "ref": null,
+            "rendered": "An interactive guide to how bees keep us well fed",
+            "type": "p",
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              <Parallax
+                            className="parallax-first"
+                            disabled={false}
+                            offsetXMax={0}
+                            offsetXMin={0}
+                            offsetYMax={85}
+                            offsetYMin={0}
+                            slowerScrollRate={true}
+                            tag="div"
+              >
+                            First,
+              </Parallax>
+              let's get to know you
+</h2>,
+            <div
+              className="questions-cont"
+>
+              <div>
+                            <h3
+                                          className="question-descr"
+                            >
+                                          Select your age
+                            </h3>
+                            <label
+                                          htmlFor="age13-19"
+                            >
+                                          13-19
+                                          <input
+                                                        id="age13-19"
+                                                        name="age"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="13-19"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="age20-39"
+                            >
+                                          20-39
+                                          <input
+                                                        id="age20-39"
+                                                        name="age"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="20-39"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="age40-59"
+                            >
+                                          40-59
+                                          <input
+                                                        id="age40-59"
+                                                        name="age"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="40-59"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="age60-79"
+                            >
+                                          60-79
+                                          <input
+                                                        id="age60-79"
+                                                        name="age"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="60-79"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="age79+"
+                            >
+                                          79+
+                                          <input
+                                                        id="age79+"
+                                                        name="age"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="79+"
+                                          />
+                            </label>
+              </div>
+              <div
+                            id="concern"
+              >
+                            <h3
+                                          className="question-descr"
+                            >
+                                          How concerned are you about bees?
+                            </h3>
+                            <label
+                                          htmlFor="concernNot at all concerned"
+                            >
+                                          Not at all concerned
+                                          <input
+                                                        id="concernNot at all concerned"
+                                                        name="concern"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="Not at all concerned"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="concernA little concerned"
+                            >
+                                          A little concerned
+                                          <input
+                                                        id="concernA little concerned"
+                                                        name="concern"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="A little concerned"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="concernVery concerned"
+                            >
+                                          Very concerned
+                                          <input
+                                                        id="concernVery concerned"
+                                                        name="concern"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="Very concerned"
+                                          />
+                            </label>
+                            <label
+                                          htmlFor="concernHaven't thought about it"
+                            >
+                                          Haven't thought about it
+                                          <input
+                                                        id="concernHaven't thought about it"
+                                                        name="concern"
+                                                        onChange={[Function]}
+                                                        type="radio"
+                                                        value="Haven't thought about it"
+                                          />
+                            </label>
+              </div>
+</div>,
+            <button
+              type="submit"
+>
+              Guess
+</button>,
+          ],
+          "className": "user-info-form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Parallax
+                  className="parallax-first"
+                  disabled={false}
+                  offsetXMax={0}
+                  offsetXMin={0}
+                  offsetYMax={85}
+                  offsetYMin={0}
+                  slowerScrollRate={true}
+                  tag="div"
+>
+                  First,
+</Parallax>,
+                "let's get to know you",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "First,",
+                  "className": "parallax-first",
+                  "disabled": false,
+                  "offsetXMax": 0,
+                  "offsetXMin": 0,
+                  "offsetYMax": 85,
+                  "offsetYMin": 0,
+                  "slowerScrollRate": true,
+                  "tag": "div",
+                },
+                "ref": null,
+                "rendered": "First,",
+                "type": [Function],
+              },
+              "let's get to know you",
+            ],
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <h3
+                                    className="question-descr"
+                  >
+                                    Select your age
+                  </h3>
+                  <label
+                                    htmlFor="age13-19"
+                  >
+                                    13-19
+                                    <input
+                                                      id="age13-19"
+                                                      name="age"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="13-19"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="age20-39"
+                  >
+                                    20-39
+                                    <input
+                                                      id="age20-39"
+                                                      name="age"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="20-39"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="age40-59"
+                  >
+                                    40-59
+                                    <input
+                                                      id="age40-59"
+                                                      name="age"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="40-59"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="age60-79"
+                  >
+                                    60-79
+                                    <input
+                                                      id="age60-79"
+                                                      name="age"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="60-79"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="age79+"
+                  >
+                                    79+
+                                    <input
+                                                      id="age79+"
+                                                      name="age"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="79+"
+                                    />
+                  </label>
+</div>,
+                <div
+                  id="concern"
+>
+                  <h3
+                                    className="question-descr"
+                  >
+                                    How concerned are you about bees?
+                  </h3>
+                  <label
+                                    htmlFor="concernNot at all concerned"
+                  >
+                                    Not at all concerned
+                                    <input
+                                                      id="concernNot at all concerned"
+                                                      name="concern"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="Not at all concerned"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="concernA little concerned"
+                  >
+                                    A little concerned
+                                    <input
+                                                      id="concernA little concerned"
+                                                      name="concern"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="A little concerned"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="concernVery concerned"
+                  >
+                                    Very concerned
+                                    <input
+                                                      id="concernVery concerned"
+                                                      name="concern"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="Very concerned"
+                                    />
+                  </label>
+                  <label
+                                    htmlFor="concernHaven't thought about it"
+                  >
+                                    Haven't thought about it
+                                    <input
+                                                      id="concernHaven't thought about it"
+                                                      name="concern"
+                                                      onChange={[Function]}
+                                                      type="radio"
+                                                      value="Haven't thought about it"
+                                    />
+                  </label>
+</div>,
+              ],
+              "className": "questions-cont",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3
+                      className="question-descr"
+>
+                      Select your age
+</h3>,
+                    Array [
+                      <label
+                        htmlFor="age13-19"
+>
+                        13-19
+                        <input
+                                                id="age13-19"
+                                                name="age"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="13-19"
+                        />
+</label>,
+                      <label
+                        htmlFor="age20-39"
+>
+                        20-39
+                        <input
+                                                id="age20-39"
+                                                name="age"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="20-39"
+                        />
+</label>,
+                      <label
+                        htmlFor="age40-59"
+>
+                        40-59
+                        <input
+                                                id="age40-59"
+                                                name="age"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="40-59"
+                        />
+</label>,
+                      <label
+                        htmlFor="age60-79"
+>
+                        60-79
+                        <input
+                                                id="age60-79"
+                                                name="age"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="60-79"
+                        />
+</label>,
+                      <label
+                        htmlFor="age79+"
+>
+                        79+
+                        <input
+                                                id="age79+"
+                                                name="age"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="79+"
+                        />
+</label>,
+                    ],
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Select your age",
+                      "className": "question-descr",
+                    },
+                    "ref": null,
+                    "rendered": "Select your age",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "13-19",
+                        <input
+                          id="age13-19"
+                          name="age"
+                          onChange={[Function]}
+                          type="radio"
+                          value="13-19"
+/>,
+                      ],
+                      "htmlFor": "age13-19",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "13-19",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "age13-19",
+                          "name": "age",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "13-19",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "20-39",
+                        <input
+                          id="age20-39"
+                          name="age"
+                          onChange={[Function]}
+                          type="radio"
+                          value="20-39"
+/>,
+                      ],
+                      "htmlFor": "age20-39",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "20-39",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "age20-39",
+                          "name": "age",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "20-39",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "40-59",
+                        <input
+                          id="age40-59"
+                          name="age"
+                          onChange={[Function]}
+                          type="radio"
+                          value="40-59"
+/>,
+                      ],
+                      "htmlFor": "age40-59",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "40-59",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "age40-59",
+                          "name": "age",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "40-59",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "60-79",
+                        <input
+                          id="age60-79"
+                          name="age"
+                          onChange={[Function]}
+                          type="radio"
+                          value="60-79"
+/>,
+                      ],
+                      "htmlFor": "age60-79",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "60-79",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "age60-79",
+                          "name": "age",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "60-79",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "79+",
+                        <input
+                          id="age79+"
+                          name="age"
+                          onChange={[Function]}
+                          type="radio"
+                          value="79+"
+/>,
+                      ],
+                      "htmlFor": "age79+",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "79+",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "age79+",
+                          "name": "age",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "79+",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3
+                      className="question-descr"
+>
+                      How concerned are you about bees?
+</h3>,
+                    Array [
+                      <label
+                        htmlFor="concernNot at all concerned"
+>
+                        Not at all concerned
+                        <input
+                                                id="concernNot at all concerned"
+                                                name="concern"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="Not at all concerned"
+                        />
+</label>,
+                      <label
+                        htmlFor="concernA little concerned"
+>
+                        A little concerned
+                        <input
+                                                id="concernA little concerned"
+                                                name="concern"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="A little concerned"
+                        />
+</label>,
+                      <label
+                        htmlFor="concernVery concerned"
+>
+                        Very concerned
+                        <input
+                                                id="concernVery concerned"
+                                                name="concern"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="Very concerned"
+                        />
+</label>,
+                      <label
+                        htmlFor="concernHaven't thought about it"
+>
+                        Haven't thought about it
+                        <input
+                                                id="concernHaven't thought about it"
+                                                name="concern"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="Haven't thought about it"
+                        />
+</label>,
+                    ],
+                  ],
+                  "id": "concern",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "How concerned are you about bees?",
+                      "className": "question-descr",
+                    },
+                    "ref": null,
+                    "rendered": "How concerned are you about bees?",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Not at all concerned",
+                        <input
+                          id="concernNot at all concerned"
+                          name="concern"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Not at all concerned"
+/>,
+                      ],
+                      "htmlFor": "concernNot at all concerned",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Not at all concerned",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "concernNot at all concerned",
+                          "name": "concern",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Not at all concerned",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "A little concerned",
+                        <input
+                          id="concernA little concerned"
+                          name="concern"
+                          onChange={[Function]}
+                          type="radio"
+                          value="A little concerned"
+/>,
+                      ],
+                      "htmlFor": "concernA little concerned",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "A little concerned",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "concernA little concerned",
+                          "name": "concern",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "A little concerned",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Very concerned",
+                        <input
+                          id="concernVery concerned"
+                          name="concern"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Very concerned"
+/>,
+                      ],
+                      "htmlFor": "concernVery concerned",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Very concerned",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "concernVery concerned",
+                          "name": "concern",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Very concerned",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Haven't thought about it",
+                        <input
+                          id="concernHaven't thought about it"
+                          name="concern"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Haven't thought about it"
+/>,
+                      ],
+                      "htmlFor": "concernHaven't thought about it",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Haven't thought about it",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "id": "concernHaven't thought about it",
+                          "name": "concern",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Haven't thought about it",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Guess",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Guess",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="page-header-img"
+/>,
+          <header
+            className="page-header"
+>
+            <h1>
+                        Bees and Our Food
+            </h1>
+            <p>
+                        An interactive guide to how bees keep us well fed
+            </p>
+</header>,
+          <form
+            className="user-info-form"
+            onSubmit={[Function]}
+>
+            <h2>
+                        <Parallax
+                                    className="parallax-first"
+                                    disabled={false}
+                                    offsetXMax={0}
+                                    offsetXMin={0}
+                                    offsetYMax={85}
+                                    offsetYMin={0}
+                                    slowerScrollRate={true}
+                                    tag="div"
+                        >
+                                    First,
+                        </Parallax>
+                        let's get to know you
+            </h2>
+            <div
+                        className="questions-cont"
+            >
+                        <div>
+                                    <h3
+                                                className="question-descr"
+                                    >
+                                                Select your age
+                                    </h3>
+                                    <label
+                                                htmlFor="age13-19"
+                                    >
+                                                13-19
+                                                <input
+                                                            id="age13-19"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="13-19"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="age20-39"
+                                    >
+                                                20-39
+                                                <input
+                                                            id="age20-39"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="20-39"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="age40-59"
+                                    >
+                                                40-59
+                                                <input
+                                                            id="age40-59"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="40-59"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="age60-79"
+                                    >
+                                                60-79
+                                                <input
+                                                            id="age60-79"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="60-79"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="age79+"
+                                    >
+                                                79+
+                                                <input
+                                                            id="age79+"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="79+"
+                                                />
+                                    </label>
+                        </div>
+                        <div
+                                    id="concern"
+                        >
+                                    <h3
+                                                className="question-descr"
+                                    >
+                                                How concerned are you about bees?
+                                    </h3>
+                                    <label
+                                                htmlFor="concernNot at all concerned"
+                                    >
+                                                Not at all concerned
+                                                <input
+                                                            id="concernNot at all concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Not at all concerned"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="concernA little concerned"
+                                    >
+                                                A little concerned
+                                                <input
+                                                            id="concernA little concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="A little concerned"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="concernVery concerned"
+                                    >
+                                                Very concerned
+                                                <input
+                                                            id="concernVery concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Very concerned"
+                                                />
+                                    </label>
+                                    <label
+                                                htmlFor="concernHaven't thought about it"
+                                    >
+                                                Haven't thought about it
+                                                <input
+                                                            id="concernHaven't thought about it"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Haven't thought about it"
+                                                />
+                                    </label>
+                        </div>
+            </div>
+            <button
+                        type="submit"
+            >
+                        Guess
+            </button>
+</form>,
+        ],
+        "className": "Header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "page-header-img",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Bees and Our Food
+</h1>,
+              <p>
+                An interactive guide to how bees keep us well fed
+</p>,
+            ],
+            "className": "page-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bees and Our Food",
+              },
+              "ref": null,
+              "rendered": "Bees and Our Food",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "An interactive guide to how bees keep us well fed",
+              },
+              "ref": null,
+              "rendered": "An interactive guide to how bees keep us well fed",
+              "type": "p",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                <Parallax
+                                className="parallax-first"
+                                disabled={false}
+                                offsetXMax={0}
+                                offsetXMin={0}
+                                offsetYMax={85}
+                                offsetYMin={0}
+                                slowerScrollRate={true}
+                                tag="div"
+                >
+                                First,
+                </Parallax>
+                let's get to know you
+</h2>,
+              <div
+                className="questions-cont"
+>
+                <div>
+                                <h3
+                                                className="question-descr"
+                                >
+                                                Select your age
+                                </h3>
+                                <label
+                                                htmlFor="age13-19"
+                                >
+                                                13-19
+                                                <input
+                                                                id="age13-19"
+                                                                name="age"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="13-19"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="age20-39"
+                                >
+                                                20-39
+                                                <input
+                                                                id="age20-39"
+                                                                name="age"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="20-39"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="age40-59"
+                                >
+                                                40-59
+                                                <input
+                                                                id="age40-59"
+                                                                name="age"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="40-59"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="age60-79"
+                                >
+                                                60-79
+                                                <input
+                                                                id="age60-79"
+                                                                name="age"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="60-79"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="age79+"
+                                >
+                                                79+
+                                                <input
+                                                                id="age79+"
+                                                                name="age"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="79+"
+                                                />
+                                </label>
+                </div>
+                <div
+                                id="concern"
+                >
+                                <h3
+                                                className="question-descr"
+                                >
+                                                How concerned are you about bees?
+                                </h3>
+                                <label
+                                                htmlFor="concernNot at all concerned"
+                                >
+                                                Not at all concerned
+                                                <input
+                                                                id="concernNot at all concerned"
+                                                                name="concern"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="Not at all concerned"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="concernA little concerned"
+                                >
+                                                A little concerned
+                                                <input
+                                                                id="concernA little concerned"
+                                                                name="concern"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="A little concerned"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="concernVery concerned"
+                                >
+                                                Very concerned
+                                                <input
+                                                                id="concernVery concerned"
+                                                                name="concern"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="Very concerned"
+                                                />
+                                </label>
+                                <label
+                                                htmlFor="concernHaven't thought about it"
+                                >
+                                                Haven't thought about it
+                                                <input
+                                                                id="concernHaven't thought about it"
+                                                                name="concern"
+                                                                onChange={[Function]}
+                                                                type="radio"
+                                                                value="Haven't thought about it"
+                                                />
+                                </label>
+                </div>
+</div>,
+              <button
+                type="submit"
+>
+                Guess
+</button>,
+            ],
+            "className": "user-info-form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Parallax
+                    className="parallax-first"
+                    disabled={false}
+                    offsetXMax={0}
+                    offsetXMin={0}
+                    offsetYMax={85}
+                    offsetYMin={0}
+                    slowerScrollRate={true}
+                    tag="div"
+>
+                    First,
+</Parallax>,
+                  "let's get to know you",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "First,",
+                    "className": "parallax-first",
+                    "disabled": false,
+                    "offsetXMax": 0,
+                    "offsetXMin": 0,
+                    "offsetYMax": 85,
+                    "offsetYMin": 0,
+                    "slowerScrollRate": true,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": "First,",
+                  "type": [Function],
+                },
+                "let's get to know you",
+              ],
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    <h3
+                                        className="question-descr"
+                    >
+                                        Select your age
+                    </h3>
+                    <label
+                                        htmlFor="age13-19"
+                    >
+                                        13-19
+                                        <input
+                                                            id="age13-19"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="13-19"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="age20-39"
+                    >
+                                        20-39
+                                        <input
+                                                            id="age20-39"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="20-39"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="age40-59"
+                    >
+                                        40-59
+                                        <input
+                                                            id="age40-59"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="40-59"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="age60-79"
+                    >
+                                        60-79
+                                        <input
+                                                            id="age60-79"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="60-79"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="age79+"
+                    >
+                                        79+
+                                        <input
+                                                            id="age79+"
+                                                            name="age"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="79+"
+                                        />
+                    </label>
+</div>,
+                  <div
+                    id="concern"
+>
+                    <h3
+                                        className="question-descr"
+                    >
+                                        How concerned are you about bees?
+                    </h3>
+                    <label
+                                        htmlFor="concernNot at all concerned"
+                    >
+                                        Not at all concerned
+                                        <input
+                                                            id="concernNot at all concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Not at all concerned"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="concernA little concerned"
+                    >
+                                        A little concerned
+                                        <input
+                                                            id="concernA little concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="A little concerned"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="concernVery concerned"
+                    >
+                                        Very concerned
+                                        <input
+                                                            id="concernVery concerned"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Very concerned"
+                                        />
+                    </label>
+                    <label
+                                        htmlFor="concernHaven't thought about it"
+                    >
+                                        Haven't thought about it
+                                        <input
+                                                            id="concernHaven't thought about it"
+                                                            name="concern"
+                                                            onChange={[Function]}
+                                                            type="radio"
+                                                            value="Haven't thought about it"
+                                        />
+                    </label>
+</div>,
+                ],
+                "className": "questions-cont",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="question-descr"
+>
+                        Select your age
+</h3>,
+                      Array [
+                        <label
+                          htmlFor="age13-19"
+>
+                          13-19
+                          <input
+                                                    id="age13-19"
+                                                    name="age"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="13-19"
+                          />
+</label>,
+                        <label
+                          htmlFor="age20-39"
+>
+                          20-39
+                          <input
+                                                    id="age20-39"
+                                                    name="age"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="20-39"
+                          />
+</label>,
+                        <label
+                          htmlFor="age40-59"
+>
+                          40-59
+                          <input
+                                                    id="age40-59"
+                                                    name="age"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="40-59"
+                          />
+</label>,
+                        <label
+                          htmlFor="age60-79"
+>
+                          60-79
+                          <input
+                                                    id="age60-79"
+                                                    name="age"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="60-79"
+                          />
+</label>,
+                        <label
+                          htmlFor="age79+"
+>
+                          79+
+                          <input
+                                                    id="age79+"
+                                                    name="age"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="79+"
+                          />
+</label>,
+                      ],
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Select your age",
+                        "className": "question-descr",
+                      },
+                      "ref": null,
+                      "rendered": "Select your age",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "13-19",
+                          <input
+                            id="age13-19"
+                            name="age"
+                            onChange={[Function]}
+                            type="radio"
+                            value="13-19"
+/>,
+                        ],
+                        "htmlFor": "age13-19",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "13-19",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "age13-19",
+                            "name": "age",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "13-19",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "20-39",
+                          <input
+                            id="age20-39"
+                            name="age"
+                            onChange={[Function]}
+                            type="radio"
+                            value="20-39"
+/>,
+                        ],
+                        "htmlFor": "age20-39",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "20-39",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "age20-39",
+                            "name": "age",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "20-39",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "40-59",
+                          <input
+                            id="age40-59"
+                            name="age"
+                            onChange={[Function]}
+                            type="radio"
+                            value="40-59"
+/>,
+                        ],
+                        "htmlFor": "age40-59",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "40-59",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "age40-59",
+                            "name": "age",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "40-59",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "60-79",
+                          <input
+                            id="age60-79"
+                            name="age"
+                            onChange={[Function]}
+                            type="radio"
+                            value="60-79"
+/>,
+                        ],
+                        "htmlFor": "age60-79",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "60-79",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "age60-79",
+                            "name": "age",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "60-79",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "79+",
+                          <input
+                            id="age79+"
+                            name="age"
+                            onChange={[Function]}
+                            type="radio"
+                            value="79+"
+/>,
+                        ],
+                        "htmlFor": "age79+",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "79+",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "age79+",
+                            "name": "age",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "79+",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="question-descr"
+>
+                        How concerned are you about bees?
+</h3>,
+                      Array [
+                        <label
+                          htmlFor="concernNot at all concerned"
+>
+                          Not at all concerned
+                          <input
+                                                    id="concernNot at all concerned"
+                                                    name="concern"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="Not at all concerned"
+                          />
+</label>,
+                        <label
+                          htmlFor="concernA little concerned"
+>
+                          A little concerned
+                          <input
+                                                    id="concernA little concerned"
+                                                    name="concern"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="A little concerned"
+                          />
+</label>,
+                        <label
+                          htmlFor="concernVery concerned"
+>
+                          Very concerned
+                          <input
+                                                    id="concernVery concerned"
+                                                    name="concern"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="Very concerned"
+                          />
+</label>,
+                        <label
+                          htmlFor="concernHaven't thought about it"
+>
+                          Haven't thought about it
+                          <input
+                                                    id="concernHaven't thought about it"
+                                                    name="concern"
+                                                    onChange={[Function]}
+                                                    type="radio"
+                                                    value="Haven't thought about it"
+                          />
+</label>,
+                      ],
+                    ],
+                    "id": "concern",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "How concerned are you about bees?",
+                        "className": "question-descr",
+                      },
+                      "ref": null,
+                      "rendered": "How concerned are you about bees?",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Not at all concerned",
+                          <input
+                            id="concernNot at all concerned"
+                            name="concern"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Not at all concerned"
+/>,
+                        ],
+                        "htmlFor": "concernNot at all concerned",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Not at all concerned",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "concernNot at all concerned",
+                            "name": "concern",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Not at all concerned",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "A little concerned",
+                          <input
+                            id="concernA little concerned"
+                            name="concern"
+                            onChange={[Function]}
+                            type="radio"
+                            value="A little concerned"
+/>,
+                        ],
+                        "htmlFor": "concernA little concerned",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "A little concerned",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "concernA little concerned",
+                            "name": "concern",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "A little concerned",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Very concerned",
+                          <input
+                            id="concernVery concerned"
+                            name="concern"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Very concerned"
+/>,
+                        ],
+                        "htmlFor": "concernVery concerned",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Very concerned",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "concernVery concerned",
+                            "name": "concern",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Very concerned",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Haven't thought about it",
+                          <input
+                            id="concernHaven't thought about it"
+                            name="concern"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Haven't thought about it"
+/>,
+                        ],
+                        "htmlFor": "concernHaven't thought about it",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Haven't thought about it",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "id": "concernHaven't thought about it",
+                            "name": "concern",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Haven't thought about it",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Guess",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Guess",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

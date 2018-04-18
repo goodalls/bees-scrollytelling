@@ -1,0 +1,327 @@
+.Impact {
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.diet-form {
+  position: relative;
+  margin: 50px 0;
+  height: 100vh;
+
+  & .fruit-arrangement {
+    top: -105px;
+    right: -50px;
+    position: absolute;
+    width: 400px;
+  }
+
+  & .raining-fruit {
+    margin: -6px;
+    position: relative;
+    right: -72%;
+    width: 60px;
+
+    &.rain-1 {
+      top: -142px;
+    }
+
+    &.rain-2 {
+      width: 75px;
+      top: -33px;
+      margin: -18px;
+      right: -68%;
+    }
+
+    &.rain-3 {
+      top: 42px;
+    }
+
+    &.rain-4 {
+      width: 105px;
+      margin: -15px;
+      transform: rotate(-35deg);
+    }
+
+    &.rain-6 {
+      top: -78px;
+      right: -50%;
+    }
+
+    &.rain-7 {
+      right: -47%;
+      top: -122px;
+      transform: rotate(-60deg);
+      width: 115px;
+    }
+
+    &.rain-8 {
+      right: -49%;
+      top: -169px;
+    }
+
+    &.rain-9 {
+      right: -37%;
+      top: -50px;
+    }
+  }
+
+  & #food-h2 {
+    margin: 20px 380px 20px 0;
+    text-align: left;
+  }
+}
+
+.question-cont {
+  position: relative;
+}
+
+.rotate {
+  position: absolute;
+  bottom: 38px;
+  right: 260px;
+  width: 70px;
+}
+
+.diet-article {
+  position: relative;
+  min-height: 100vh;
+  height: fit-content;
+
+  & #diet-header {
+    font-size: 5em;
+    margin-bottom: 0;
+  }
+
+  & h1 {
+    font-size: 3em;
+  }
+
+  & p {
+    font-size: 1.6em;
+  }
+
+  & .foods-cont {
+    position: relative;
+  }
+
+  & .foods {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+  }
+
+  & .word-cloud {
+    width: 100%;
+  }
+
+  & .fruit-cloud {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-radius: 40%;
+    width: 880px;
+  }
+
+  & .fruit-cloud span {
+    margin: 1px;
+    height: fit-content;
+  }
+
+  & .fruit-cloud span:nth-of-type(3n + 1) {
+    font-size: 2em;
+    margin: 3px;
+    opacity: 0.5;
+  }
+
+  & .fruit-cloud span:nth-of-type(4n + 3) {
+    font-size: 0.5em;
+    opacity: 0.9;
+  }
+
+  & .fruit-cloud span:nth-of-type(7n-3) {
+    font-size: 3em;
+    margin: -9px 0;
+  }
+
+  & .fruit-cloud span:nth-of-type(47n-40),
+  & .fruit-cloud span:nth-of-type(40n) {
+    font-size: 5em;
+    margin: -25px 0;
+  }
+
+  & #chocolate {
+    bottom: 62px;
+    right: 297px;
+    background-image: url('../../assets/chocolate.png');
+    z-index: 3;
+  }
+
+  & #avocado {
+    right: 247px;
+    top: 248px;
+    transform: rotate(345deg);
+    background-image: url('../../assets/avocado.png');
+    height: 180px;
+  }
+
+  & #coffee {
+    bottom: 25px;
+    right: 390px;
+    z-index: 2;
+    background-image: url('../../assets/coffee-beans.png');
+  }
+
+  & #apple {
+    top: 307px;
+    right: 370px;
+    z-index: 1;
+    background-image: url('../../assets/apple.png');
+  }
+
+  & #peach {
+    top: 331px;
+    right: 490px;
+    width: 160px;
+    background-image: url('../../assets/Peach.png');
+  }
+}
+
+.economic-questions {
+  width: 100%;
+  min-height: 100vh;
+  margin: 250px 0 50px 0;
+
+  & div {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+
+  & select {
+    width: 48%;
+    height: 50px;
+    border: 2px solid #e5e5e5;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+  }
+
+  & .coins-parallax {
+    height: 300px;
+  }
+
+  & #coins {
+    height: 570px;
+    position: relative;
+    left: 540px;
+    top: -350px;
+    display: inline;
+  }
+}
+
+.economic-article {
+  height: 100vh;
+  position: relative;
+
+  & h1 {
+    font-size: 3em;
+  }
+
+  & .graph-cover {
+    height: 470px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid black;
+    z-index: 1;
+  }
+
+  & .econ-graph-wrap {
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid black;
+    z-index: -1;
+  }
+
+  & .us-econ-growth {
+    background-color: #CCCF85;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+
+    & p {
+      margin: -250px auto;
+      text-align: center;
+    }
+  }
+
+  & .world-econ-growth {
+    background-color: #B2BD72;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+
+    & p {
+      margin: -50px auto;
+      text-align: center;
+    }
+  }
+}
+
+.wind-foods-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wind-foods-cont img {
+  width: 135px;
+}
+
+.diet-article-volume {
+  height: 100vh;
+
+  & .wheat-cont {
+      position: relative;
+      width: 150%;
+      margin-left: -300px;
+      height: 500px;
+      overflow: hidden;
+
+    & .wheat {
+      width: 100%;
+    } 
+  }
+}
+
+
+
+#wheat1 {
+  position: absolute;
+  top: -36px;
+  width: 100%;
+}
+
+#wheat2 {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+#wheat3 {
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  z-index: 2;
+}

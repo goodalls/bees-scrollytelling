@@ -1,0 +1,565 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help matches the Snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Help />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Ways you can help
+</h1>,
+        <h2>
+          Buy organic and local
+</h2>,
+        <h2>
+          Grow pollinator gardens
+</h2>,
+        <p>
+          Be sure to ask if the plants you buy were grown with neonicitinoides
+</p>,
+        <div
+          className="flowers"
+>
+          <img
+                    className="flowers"
+                    src="hypericum.svg"
+          />
+          <img
+                    className="flowers"
+                    src="iris.svg"
+          />
+          <img
+                    className="flowers"
+                    src="knapweed.svg"
+          />
+          <img
+                    className="flowers"
+                    src="mimosa.svg"
+          />
+          <img
+                    className="flowers"
+                    src="pansy.svg"
+          />
+          <img
+                    className="flowers"
+                    src="poppy.svg"
+          />
+          <img
+                    className="flowers"
+                    src="carnation.svg"
+          />
+</div>,
+        <h2>
+          Make bee homes
+</h2>,
+        <div
+          className="bee-images bee-home"
+/>,
+        <h2>
+          Support bee friendly organizations and legislation
+</h2>,
+      ],
+      "className": "Help",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Ways you can help",
+        },
+        "ref": null,
+        "rendered": "Ways you can help",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Buy organic and local",
+        },
+        "ref": null,
+        "rendered": "Buy organic and local",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Grow pollinator gardens",
+        },
+        "ref": null,
+        "rendered": "Grow pollinator gardens",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Be sure to ask if the plants you buy were grown with neonicitinoides",
+        },
+        "ref": null,
+        "rendered": "Be sure to ask if the plants you buy were grown with neonicitinoides",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              className="flowers"
+              src="hypericum.svg"
+/>,
+            <img
+              className="flowers"
+              src="iris.svg"
+/>,
+            <img
+              className="flowers"
+              src="knapweed.svg"
+/>,
+            <img
+              className="flowers"
+              src="mimosa.svg"
+/>,
+            <img
+              className="flowers"
+              src="pansy.svg"
+/>,
+            <img
+              className="flowers"
+              src="poppy.svg"
+/>,
+            <img
+              className="flowers"
+              src="carnation.svg"
+/>,
+          ],
+          "className": "flowers",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "hypericum.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "iris.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "knapweed.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "mimosa.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "pansy.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "poppy.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "flowers",
+              "src": "carnation.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Make bee homes",
+        },
+        "ref": null,
+        "rendered": "Make bee homes",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "bee-images bee-home",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Support bee friendly organizations and legislation",
+        },
+        "ref": null,
+        "rendered": "Support bee friendly organizations and legislation",
+        "type": "h2",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Ways you can help
+</h1>,
+          <h2>
+            Buy organic and local
+</h2>,
+          <h2>
+            Grow pollinator gardens
+</h2>,
+          <p>
+            Be sure to ask if the plants you buy were grown with neonicitinoides
+</p>,
+          <div
+            className="flowers"
+>
+            <img
+                        className="flowers"
+                        src="hypericum.svg"
+            />
+            <img
+                        className="flowers"
+                        src="iris.svg"
+            />
+            <img
+                        className="flowers"
+                        src="knapweed.svg"
+            />
+            <img
+                        className="flowers"
+                        src="mimosa.svg"
+            />
+            <img
+                        className="flowers"
+                        src="pansy.svg"
+            />
+            <img
+                        className="flowers"
+                        src="poppy.svg"
+            />
+            <img
+                        className="flowers"
+                        src="carnation.svg"
+            />
+</div>,
+          <h2>
+            Make bee homes
+</h2>,
+          <div
+            className="bee-images bee-home"
+/>,
+          <h2>
+            Support bee friendly organizations and legislation
+</h2>,
+        ],
+        "className": "Help",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ways you can help",
+          },
+          "ref": null,
+          "rendered": "Ways you can help",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Buy organic and local",
+          },
+          "ref": null,
+          "rendered": "Buy organic and local",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Grow pollinator gardens",
+          },
+          "ref": null,
+          "rendered": "Grow pollinator gardens",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Be sure to ask if the plants you buy were grown with neonicitinoides",
+          },
+          "ref": null,
+          "rendered": "Be sure to ask if the plants you buy were grown with neonicitinoides",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                className="flowers"
+                src="hypericum.svg"
+/>,
+              <img
+                className="flowers"
+                src="iris.svg"
+/>,
+              <img
+                className="flowers"
+                src="knapweed.svg"
+/>,
+              <img
+                className="flowers"
+                src="mimosa.svg"
+/>,
+              <img
+                className="flowers"
+                src="pansy.svg"
+/>,
+              <img
+                className="flowers"
+                src="poppy.svg"
+/>,
+              <img
+                className="flowers"
+                src="carnation.svg"
+/>,
+            ],
+            "className": "flowers",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "hypericum.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "iris.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "knapweed.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "mimosa.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "pansy.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "poppy.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "flowers",
+                "src": "carnation.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Make bee homes",
+          },
+          "ref": null,
+          "rendered": "Make bee homes",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "bee-images bee-home",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Support bee friendly organizations and legislation",
+          },
+          "ref": null,
+          "rendered": "Support bee friendly organizations and legislation",
+          "type": "h2",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

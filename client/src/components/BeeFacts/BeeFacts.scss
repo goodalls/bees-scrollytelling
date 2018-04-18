@@ -1,0 +1,95 @@
+.bee-questions {
+  height: 100vh;
+  & #help {
+    margin: 50px auto;
+    height: 50px;
+    width: 420px;
+    border: 2px solid #e5e5e5;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+  }
+}
+
+.bee-article {
+  width: 100%;
+  height: fit-content;
+
+  & h1 {
+    margin: 50px 200px 0px 0;
+    font-size: 3em;
+  }
+
+  & h2 {
+    margin: 50px 200px 0px 0;
+    // margin-right: 80px;
+    font-size: 2em;
+  }
+
+  & h3 {
+    margin-left: 50px;
+  }
+
+  & div {
+    // margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .wild-bees-img {
+    background-image: url("../../assets/wildbees.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+  }
+
+  // & .the-honeybee {
+  //   top: 80px;
+  //   margin: 0 0 100px 0;
+  // }
+
+  & .bee-images {
+    height: 257px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  & .honey-bee {
+    margin: 0 0 0 400px;
+    background-image: url('../../assets/bee2.png');
+  }
+
+  & .bee-box { 
+    margin: 190px 0;
+    background-image: url('../../assets/bee-box.png');
+  }
+
+  & #transport {
+    margin: 190px 0;
+    background-image: url('../../assets/truck2.png');
+  }
+
+  & .wild-bee {
+    margin: 190px 0;
+    background-image: url('../../assets/wild-bee.png');
+  }
+
+  & .solitary {
+    margin: 190px 0;
+    background-image: url('../../assets/bee-home.png');
+  }
+
+  & .flower {
+    margin: 190px 0;
+    background-image: url('../../assets/pink-flower.png');
+  }
+
+  & #last {
+    margin-bottom: 250px;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "bees-scrollytelling",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "knex": "^0.14.4",
+    "mocha": "^5.0.5",
+    "pg": "^7.4.1",
+    "prop-types": "^15.6.1"
+  },
+  "scripts": {
+    "test-api": "NODE_ENV=test mocha --exit ./API/test/routes.spec.js",
+    "test-client": "cd client && npm install --only=dev && npm install && npm run test",
+    "test": "concurrently --kill-others-on-fail \"npm run test-api\" \"npm run test-client\"",
+    "lint": "./node_modules/.bin/eslint ./*.js",
+    "client": "cd client && npm run start",
+    "server": "PORT=3001 nodemon ./server.js",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "concurrently": "^3.5.0"
+  }
+}

@@ -1,0 +1,37 @@
+.Help {
+  min-height: 100vh;
+  color: inherit;
+
+  & h1 {
+    font-size: 5em;
+    margin: 20px 0;
+  }
+
+  & h2 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  & p {
+    font-size: 2em;
+  }
+
+  & .flowers {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 100%;
+  }
+
+  & .bee-images {
+    height: 257px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  & .bee-home {
+    background-image: url('../../assets/bee-home1.png')
+  }
+}

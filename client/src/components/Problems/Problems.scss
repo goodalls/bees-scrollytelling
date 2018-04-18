@@ -1,0 +1,125 @@
+.Problems {
+  color: inherit;
+
+  & form {
+    margin: 50px auto;
+    height: 100vh;
+  }
+}
+
+.problems-article {
+  min-height: 100vh;
+  margin-bottom: 200px;
+
+  & h1 {
+    font-size: 3em;
+  }
+
+  & p {
+    font-size: 2em;
+  }
+
+  & .fixed-monocropping {
+    background-image: url("../../assets/monocrop.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+  }
+}
+
+.neonics-cont1 {
+  height: 100vh;
+  position: relative;
+
+  & .fixed-pesticides {
+    background-image: url("../../assets/pesticides.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+  }
+
+  & .nicotine-cont {
+    width: 300px;
+    position: relative;
+  }
+
+  & .nicotine {
+    position: relative;
+  }
+
+  & #nicotine1 {
+    width: 300px;
+    z-index: -1;
+    position: relative;
+    top: -40px;
+    left: 283px;
+    transform: rotate(80deg);
+
+  }
+
+  & #nicotine2 {
+    width: 360px;
+    transform: rotate(300deg);
+    top: -290px;
+    left: 360px;
+  }
+}
+
+.neonics-cont2 {
+  height: 30vh;
+}
+
+.honeycomb-cont {
+  position: relative;
+  height: 500px
+}
+
+.honeycomb-parallax {
+  z-index: -1;
+}
+
+#honeycomb {
+  width: 685px;
+  z-index: -1;
+  position: relative;
+  top: -250px;
+  left: 650px;
+  transform: rotate(180deg);
+}
+
+#honeycomb1 {
+  width: 685px;
+  z-index: -1;
+  position: relative;
+  top: -670px;
+  left: -409px;
+}
+
+#bee {
+  position: relative;
+  top: -450px;
+  left: -210px;
+}
+
+.monoculture {
+  height: 100vh;
+  margin-bottom: 400px;
+
+  & .almond {
+    position: relative;
+    top: -299px;
+    left: 470px;
+    z-index: -1;
+  }
+}
+
+#flowers-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

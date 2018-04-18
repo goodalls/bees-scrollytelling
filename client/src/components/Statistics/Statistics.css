@@ -1,0 +1,24 @@
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Statistics h2 {
+    font-size: 3em; }
+  .Statistics h4, .Statistics h6 {
+    font-size: 1.5em; }
+
+.statistics-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  align-items: center;
+  box-shadow: 5px 5px 5px #e0e0e0;
+  margin: 10px; }
+
+.answer {
+  border: 1px solid magenta; }
+
+hr {
+  border: 1px solid #60CA9B;
+  width: 50%; }

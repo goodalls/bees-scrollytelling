@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.page-header-img {
+  background-image: url("../../assets/bumblebee1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 100vh;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 49%; }
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  height: 100vh;
+  flex-direction: column; }
+
+.page-header h1 {
+  font-size: 3.5em;
+  letter-spacing: 4px;
+  margin-bottom: 15px; }
+
+.page-header p {
+  margin: 0px 0 59px 20px; }
+
+.parallax-first {
+  margin: 50px 0; }
+
+.questions-cont {
+  display: flex;
+  justify-content: space-around; }
+  .questions-cont #concern {
+    margin-left: 150px; }
